@@ -1,0 +1,6 @@
+@echo off
+REM English generate
+echo Generating English localization...
+call translategen en/en_source.txt
+echo Finished generating...
+pause
