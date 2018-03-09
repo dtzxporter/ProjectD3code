@@ -7,7 +7,7 @@ Translations for COD:OL, requires ProjectD3code.
 - Download from [Releases](https://github.com/dtzxporter/ProjectD3code/releases) (Or build from source)
 
 ## Download links (Rename to TranslationsDB.db)
-- English [Download](https://github.com/dtzxporter/D3codeTranslations/blob/master/en/en_source.db)
+- English [Download](https://github.com/dtzxporter/ProjectD3code/raw/master/en/en_source.db)
 
 ## Contributing
 - Modify the source.txt file for the language.
