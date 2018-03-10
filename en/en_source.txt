@@ -203,7 +203,7 @@ PLATFORM_UI_EOG_SUMMARY_PLAY_AGAIN|^2 &&1 ^7 Replay
 PLATFORM_UI_EOG_SUMMARY_RETURN|^2 &&1 ^7 Back to Special Action
 PLATFORM_UI_PRESS_TO_CONTINUE|Press ^2 &&1 ^7 to continue
 PLATFORM_UI_CANCEL_RIGHT|Cancel ^2 &&1 ^7
-PLATFORM_FOLLOWPREVIOUSPLAYER|^2 &&1 ^7 - Last player
+PLATFORM_FOLLOWPREVIOUSPLAYER|^2 &&1 ^7 - Previous
 PLATFORM_FOLLOWSTOP|^2 &&1 ^7 - Stop following
 PLATFORM_STANCEHINT_JUMP|Press ^2 &&1 ^7 to jump
 PLATFORM_STANCEHINT_STAND|Press ^2 &&1 ^7 to stand
@@ -235,7 +235,7 @@ PLATFORM_PICK_UP_DOUBLE_TAP|press ^2 &&1 ^7 pick up [double speed shoot]
 PLATFORM_PICK_UP_MARTYRDOM|Press ^2 &&1 ^7 pick up [Glory]
 PLATFORM_PICK_UP_SLEIGHT_OF_HAND|Press ^2 &&1 ^7 to pick up [Sleight of Hand]
 PLATFORM_PLAY_ONLINE|Online game
-PLATFORM_FOLLOWNEXTPLAYER|^2 &&1 ^7 - Next player
+PLATFORM_FOLLOWNEXTPLAYER|^2 &&1 ^7 - Next
 PLATFORM_INVITE|BUTTON_SELECTCHOICE Send invitation
 PLATFORM_LOBBYINVITE|I want to invite you to join my room
 PLATFORM_PARTYINVITE|I want to invite you to join my team
@@ -959,7 +959,7 @@ MPUI_DLC3_NAME|No.3 DLC extension package
 MPUI_DLC4_NAME|No.4 DLC extension package
 MPUI_DLC5_NAME|Number 5 DLC Extension
 MPUI_DLC6_NAME|No.6 DLC extension package
-MPUI_CHA|Charge Team Athletics
+MPUI_CHA|Team Deathmatch
 MPUI_DESC_COOP_EVAC_MP_BOG_SH|Small high-density theater. Survivors do not need to run too far, and mechanical zombies will not leave too far. Do not stop!
 MPUI_DESC_COOP_EVAC_MP_AMBUSH_SH|Large desert town. Survivors are scattered, and you have to go further to escort them to safety. However, the distribution of mechanical zombies more scattered, more conducive to exploration.
 MPUI_DESC_COOP_EVAC_MP_OVERGROWN|Lost abandoned countryside. Survivors are scattered, and you have to go further to escort them to safety. However, the distribution of mechanical zombies more scattered, more conducive to exploration.
@@ -1574,14 +1574,14 @@ AWARDS_FRAGGER|Fragger
 AWARDS_MOST_FRAG_GRENADE_KILLS|Fragmentary Thunderbolt Kills most
 AWARDS_C4_KILLER|C4 Killer
 AWARDS_MOST_C4_KILLS|C4 Kills most enemies
-AWARDS_SEMTEX_KILLER|Sticky Ray experts
-AWARDS_MOST_SEMTEX_KILLS|Sticky hand grenades kill most enemies
+AWARDS_SEMTEX_KILLER|Semtex Killer
+AWARDS_MOST_SEMTEX_KILLS|Most Semtex kills
 AWARDS_AMBUSHER|Ambusher
 AWARDS_MOST_CLAYMORE_KILLS|Broadsword Kills the largest number of enemies
 AWARDS_KNIFE_MASTER|Knife master
 AWARDS_MOST_THROWING_KNIFE_KILLS|Most throwing knife kills
 AWARDS_SMG_SPECIALIST|SMG master
-AWARDS_MOST_SMG_KILLS|Most submachine gun kills
+AWARDS_MOST_SMG_KILLS|Most Submachine Gun kills
 AWARDS_RIFLE_SPECIALIST|AR master
 AWARDS_MOST_ASSAULT_RIFLE_KILLS|Most assault rifle kills
 AWARDS_ROCKET_MAN|Vigorous
@@ -1604,8 +1604,8 @@ AWARDS_LMG_SHARPSHOOTER|Light machine gun expert
 AWARDS_MOST_LMG_HEADSHOTS|Light machine gun headshot most
 AWARDS_DEAD_AIM|Deadly sight
 AWARDS_MOST_SNIPER_HEADSHOTS|Most sniper rifle headshots
-AWARDS_SURVIVALIST|Survival
-AWARDS_MOST_EQUIPMENT_KILLS|Use equipment to kill the most enemies
+AWARDS_SURVIVALIST|Survivalist
+AWARDS_MOST_EQUIPMENT_KILLS|Most kills by equipment
 AWARDS_BLINDFIRE|Blind shot
 AWARDS_MOST_BULLET_PENETRATION|Bullets penetrate the most number of Kills
 AWARDS_EYE_FOR_AN_EYE|Eye for an Eye
@@ -1639,7 +1639,7 @@ AWARDS_10_KILLSNO_DEATHS|kill ten people / zero killed
 AWARDS_SUPERNATURAL|supernatural
 AWARDS_KILLDEATH_RATIO_OVER|Kills / death ratio greater than 10
 AWARDS_ODD_MAN_OUT|warm-up exercise
-AWARDS_SIXTH_SENSE|sixth sense
+AWARDS_SIXTH_SENSE|Sixth Sense
 AWARDS_NO_DEATHS_FROM_BEHIND|Never been killed by an enemy from behind
 AWARDS_DEAD_MAN_WALKING|Death Penalty
 AWARDS_LONGEST_DEATHSTREAK|The largest number of consecutive deaths
@@ -1649,20 +1649,20 @@ AWARDS_DESTROYER|Completely eliminated
 AWARDS_KILLED_EVERY_MEMBER_OF|destroy all players of the enemy team
 AWARDS_DECIMATOR|destroy the enemy
 AWARDS_KILLED_EVERY_MEMBER_OF1|Eliminate all players of the enemy without sacrificing
-AWARDS_NOMAD|Nomads
-AWARDS_LONGEST_DISTANCE_TRAVELED|The longest distance traveled
-AWARDS_RUNNER|Scud
-AWARDS_MOST_TIME_SPENT_SPRINTING|sprint for the longest time
-AWARDS_HUNCHBACK|Ambush
-AWARDS_MOST_TIME_SPENT_CROUCHED|Crouching for the longest time
+AWARDS_NOMAD|Nomad
+AWARDS_LONGEST_DISTANCE_TRAVELED|Longest distance traveled
+AWARDS_RUNNER|Runner
+AWARDS_MOST_TIME_SPENT_SPRINTING|Longest distance sprinted
+AWARDS_HUNCHBACK|Hunchback
+AWARDS_MOST_TIME_SPENT_CROUCHED|Most time spent crouched
 AWARDS_GRASSY_KNOLL|Stalker
 AWARDS_MOST_TIME_SPENT_PRONE|Most time spent prone
-AWARDS_COMEBACK_KID|regrouping
-AWARDS_MOST_COMEBACKS|The most frequently recovered from a series of killed
-AWARDS_LIFER|Longevity
+AWARDS_COMEBACK_KID|Comeback Kid
+AWARDS_MOST_COMEBACKS|Most comebacks.
+AWARDS_LIFER|Lifer
 AWARDS_LONGEST_LIFE|Live the longest
-AWARDS_COUCH_POTATO|Know yourself
-AWARDS_MOST_TIME_WATCHING_KILLCAMS|Watch the Longest Playback Time
+AWARDS_COUCH_POTATO|Couch Potato
+AWARDS_MOST_TIME_WATCHING_KILLCAMS|Most time watching killcams
 AWARDS_HYPERACTIVE|acute child
 AWARDS_MOST_KILLCAMS_SKIPPED|skip the highest number of playback
 AWARDS_LOCK_AND_LOAD|Bullet loaded
@@ -1676,7 +1676,7 @@ AWARDS_MOST_TIME_SPENT_IN_ONE|Stayed in one place for the longest time
 AWARDS_SCOUTMASTER|steady as Taishan
 AWARDS_MOST_CAMPING_KILLS|static maximum number of enemies
 AWARDS_HIFI|Supreme Commander
-AWARDS_HIGHEST_AVERAGE_ALTITUDE|The highest average height
+AWARDS_HIGHEST_AVERAGE_ALTITUDE|The highest average altitude
 AWARDS_LOFI|Low-key
 AWARDS_LOWEST_AVERAGE_ALTITUDE|Lowest average height
 AWARDS_HIJACKER|go hand in hand
@@ -1707,8 +1707,8 @@ AWARDS_THERMAL_KILLER|White hot
 AWARDS_MOST_THERMAL_KILLS|Use thermal imaging aiming to kill a maximum number of enemies
 AWARDS_TERMINATOR|Thunderbolt
 AWARDS_MOST_THUMPER_KILLS|Use the "blower" to kill the most enemies
-AWARDS_COMBAT_EFFECTIVE|immortal body
-AWARDS_HIGHEST_KILLDEATH_RATIO|highest kill / death ratio
+AWARDS_COMBAT_EFFECTIVE|Combat Effective
+AWARDS_HIGHEST_KILLDEATH_RATIO|Highest Kill / Death ratio
 AWARDS_AFK|Back later
 AWARDS_NO_KILLSNO_DEATHS|No kill / no chance
 AWARDS_PARTICIPANT|Focus on engagement
@@ -3913,17 +3913,17 @@ KILLSTREAKS_ADDITIONALPRIMARY|Big kill potion
 KILLSTREAKS_ADDITIONALPRIMARY_DESC|- Can carry an extra weapon
 KILLSTREAKS_ELECTRO|Electric Potion
 KILLSTREAKS_ELECTRO_DESC|- Activate a nearby beverage machine
-KILLSTREAKS_SCAVENGER|rot bird insecticide
+KILLSTREAKS_SCAVENGER|Scavenger
 KILLSTREAKS_SCAVENGER_DESC|- Able to replenish ammunition from a dead mechanical zombie
 KILLSTREAKS_DISCOUNT|Discount Potion
 KILLSTREAKS_DISCOUNT_DESC|- Return 10% of purchase amount
-KILLSTREAKS_LOCKER|Backpacker
+KILLSTREAKS_LOCKER|Locker
 KILLSTREAKS_JUGGERNAUT|Fearless warrior
 KILLSTREAKS_JUGGERNAUT_DESC|Get high body armor, light machine guns and sand eagles, need to wreak havoc in 11 people.
 KILLSTREAKS_JUGGERNAUT_KINGPIN|Boss
 KILLSTREAKS_JUGGERNAUT_KINGPIN_DESC|Get high-level body armor, light machine gun and sand eagle.
-KILLSTREAKS_HELICOPTER_KILL|Kill Skill Attack Helicopter Kill
-KILLSTREAKS_HELICOPTER_MINIGUN_KILL|Kill Skill Helicopter Shooter Kill
+KILLSTREAKS_HELICOPTER_KILL|Attack Helicopter
+KILLSTREAKS_HELICOPTER_MINIGUN_KILL|Chopper Gunner
 KILLSTREAKS_PLANE_KILL|Lien skills "precision air attack" Kill
 KILLSTREAKS_JUGGERNAUT_KILL|Lost Skill Invasion
 KILLSTREAKS_DOG_KILL|Crash
@@ -4259,11 +4259,11 @@ SPLASHES_ZRESCUE_EXPOSE_WENDI|Discover the location of a sergeant!
 SPLASHES_ZRESCUE_EXPOSE_WENDI_DESC|She has a great personality ... and a gun!
 SPLASHES_ZRESCUE_EXPOSE_LUCAS|Find the location of the trigger!
 SPLASHES_ZRESCUE_EXPOSE_LUCAS_DESC|He carries a gun with him to prevent any accident
-SPLASHES_ZRESCUE_PLAYER_DIED|^2 players killed! ^7
+SPLASHES_ZRESCUE_PLAYER_DIED|^2 Player died! ^7
 SPLASHES_ZRESCUE_PLAYER_DIED_DESC|^1-25 ^7 points!
 SPLASHES_ZRESCUE_CIV_DIED|^2 survivors were killed! ^7
 SPLASHES_ZRESCUE_CIV_DIED_DESC|^1-100 ^7 points!
-SPLASHES_NO_TEXT|PLASHES_NO_TEXT:
+SPLASHES_NO_TEXT| 
 SPLASHES_SURV_AIRDROP|Airdrop coming soon ...
 SPLASHES_MAN_DOWN|^1 teammates fell to the ground! ^7
 SPLASHES_MAN_DEFEATED|^1 teammate was defeated! ^7
@@ -4275,7 +4275,7 @@ SPLASHES_ZRESCUE_COMPLETED_ALL|^2 No other survivors! ^7
 SPLASHES_ZRESCUE_KILLED_ALL|^2 Survivors are all killed! ^7
 SPLASHES_CYBORG_AMMO_DROP|Battlefield dropped a 【Ammo】 full reward!
 SPLASHES_CYBORG_AMMO_DROP_DESC|Find it fast, make up your ammo!
-SPLASHES_PLAYER_DIED|^2 players killed! ^7
+SPLASHES_PLAYER_DIED|^2 Player died! ^7
 SPLASHES_SURV_NEW_SET2|^22 ^7 of 4 suits are all received!
 SPLASHES_SURV_NEW_SET3|The four suits ^23 ^7 have been received!
 SPLASHES_SURV_NEW_SET4|The four suits ^24 ^7 have been collected!
@@ -5773,9 +5773,9 @@ CHALLENGE_DAILY_CHALLENGE_MISERY|miserable
 CHALLENGE_DAILY_CHALLENGE_HARDWIRE|Electronic killer
 CHALLENGE_DAILY_CHALLENGE_SHOTGUN|Shotgun killer
 CHALLENGE_DAILY_CHALLENGE_JUMPER|Bouncer
-CHALLENGE_DAILY_CHALLENGE_PLAYTIME_30|Daily gameplay - 30 minutes
-CHALLENGE_DAILY_CHALLENGE_PLAYTIME_60|Daily games - 60 minutes
-CHALLENGE_DAILY_CHALLENGE_PLAYTIME_90|Daily games - 90 minutes
+CHALLENGE_DAILY_CHALLENGE_PLAYTIME_30|Daily Gameplay - 30 minutes
+CHALLENGE_DAILY_CHALLENGE_PLAYTIME_60|Daily Gameplay - 60 minutes
+CHALLENGE_DAILY_CHALLENGE_PLAYTIME_90|Daily Gameplay - 90 minutes
 CHALLENGE_DESC_PLAYTIME|Run &&1 minute game
 CHALLENGE_EVAC_COLLECT_AUTHOR|Great writer
 CHALLENGE_DESC_PARTY_WINS|Wins &&1 Multiplayer Match in Team
@@ -9181,7 +9181,7 @@ SF_UI_NOTE_DEMOTE_CLAN_MEM|Degrading
 SF_UI_NOTE_KICK_CLAN_MEM|Kicking out
 SF_UI_NOTE_CLAN_DISSOLVED|The team has been dissolved!
 SF_UI_NOTE_KICKED_FROM_CLAN|You have been removed from the team
-SF_UI_NOTE_CLAN_NEW_MEMBER|&&1 Join the team
+SF_UI_NOTE_CLAN_NEW_MEMBER|&&1 Joined the Clan
 SF_UI_NOTE_CLAN_MEMBER_LEFT|&&1 Leaving the clan
 SF_UI_NOTE_CLAN_MEMBER_KICKED|&&1 was removed from the clan
 SF_UI_NOTE_CLAN_PROMOTE_TO_OWNER|&&1 Upgrade to Clan Owner
@@ -9203,13 +9203,13 @@ SF_UI_NOTE_RESET_CONTROLS|Resetting operation settings
 SF_UI_NOTE_KEYS_EXIST|button is bound, continue?
 SF_UI_NOTE_RESET_AUDIOS|The audio settings are being reset
 SF_UI_NOTE_PARTY_WILL_DISMISS|When you join a fast-matching room, the team will be dismissed!
-SF_UI_NOTE_PROPOSE_PARTY_NEW_MEMBER|Invited &&1 Join the team
-SF_UI_NOTE_PROPOSE_CLAN_NEW_MEMBER|invited &&1 joined the clan
+SF_UI_NOTE_PROPOSE_PARTY_NEW_MEMBER|Invited &&1 to join the party
+SF_UI_NOTE_PROPOSE_CLAN_NEW_MEMBER|invited &&1 to join the clan
 SF_UI_NOTE_CLAN_APPLICATION_SUCCESS|The clan application has been submitted
-SF_UI_NOTE_PARTY_NEW_MEMBER|&&1 Join the team
+SF_UI_NOTE_PARTY_NEW_MEMBER|&&1 joined the party
 SF_UI_NOTE_INVITE_NEW_PARTY_MEMBER|&&1 Inviting &&2
 SF_UI_NOTE_PARTY_INVITE_REJECTED|&&1 declined the invitation
-SF_UI_NOTE_PARTY_INVITE_TIMEOUT|invite &&1 timeout
+SF_UI_NOTE_PARTY_INVITE_TIMEOUT|Invite to &&1 timed out
 SF_UI_NOTE_PARTY_HOST_CHANGED|&&1 promoted to captain
 SF_UI_LEAVE_PARTY_DUE_TO_TRAINING|Training mode does not support team joining, are you willing to leave the team?
 SF_UI_LEAVE_PARTY_CONFIRM_IN_RANKED_MATCH|Can not leave team during match
@@ -9220,7 +9220,7 @@ SF_UI_NOTE_YOU_ARE_KICKED_FROM_PARTY|You have been removed from the team
 SF_UI_NOTE_PARTY_LEADER_CHANGED|Team leader changed to &&1
 SF_UI_NOTE_PARTY_SETTING_CHANGED|Team Settings [&&1] changed to: &&2
 SF_UI_NOTE_PARTY_WILL_JOIN_GAME|The captain opted in to join [&&1] [&&2] [&&3]. Do you want to join the team?
-SF_UI_NOTE_PARTY_WAITING_OTHERS|Waiting for other members to be ready [&&1]
+SF_UI_NOTE_PARTY_WAITING_OTHERS|Waiting [&&1]
 SF_UI_NOTE_PARTY_OPTION_NOTHING_CHANGED|No settings have been changed.
 SF_UI_NOTE_PARTY_SMALLER_THAN_MEMBERS|The current number of team members: &&1 team cap to exceed the set limit: &&2!
 SF_UI_NOTE_PARTY_MAX_MEMBERS|Team members are full.
@@ -9337,8 +9337,8 @@ SF_UI_DELETE|Delete
 SF_UI_ROOM_DEFAULT_NAME|GO! GO! GO!
 SF_UI_LEAVE_ROOM|Leave
 SF_UI_RETURN_MAIN_MENU|Exit
-SF_UI_LEAVE_ROOM_ALONE|left alone
-SF_UI_LEAVE_ROOM_WITH_PARTY|Team left
+SF_UI_LEAVE_ROOM_ALONE|Leave alone
+SF_UI_LEAVE_ROOM_WITH_PARTY|Leave w/party
 SF_UI_GAME_STARTING_CANNOT_LEAVE|The game is about to start and can not leave at this time
 SF_UI_LEAVE_ROOM_AND_PARTY_CONFIRM|If you leave the room you will leave the current team. Are you sure you want to leave the room?
 SF_UI_HOMEPAGE_QUICK_JOIN|Follow friends
@@ -9755,7 +9755,7 @@ SF_UI_CAREER_MISSIONS|Missions
 SF_UI_VET_AWARDS|Challenge achievements
 SF_UI_PLAYLIST|Game Modes
 SF_UI_LIST_LABEL_PLAYLIST|Matches
-SF_UI_LIST_LOCKPARTY|This game mode does not support teams
+SF_UI_LIST_LOCKPARTY|This game mode does not support parties
 SF_UI_LIST_UNLOCKPARTY|people team cap
 SF_UI_LIST_LABEL_MODE|Mode
 SF_UI_LIST_TIMED_CLOSE_LOCKED|This list is not open yet
@@ -11769,7 +11769,7 @@ SF_UI_CHALLENGES_TOTAL_TIME_PLAYED|Game Time
 SF_UI_CAREER_XP_NEEDED|needed
 SF_UI_VIEW_DEPENDENCY|Details
 SF_UI_CAREER_MOST_USED_RECENTLY|Recently used equipment
-SF_UI_LOBBY_COUNTDOWN_TIME_HEADER|The race begins
+SF_UI_LOBBY_COUNTDOWN_TIME_HEADER|The match is beginning
 SF_UI_CHA_DRAGONSOLDIER_NAME|Dragon Warrior
 SF_UI_CHA_DRAGONSOLDIER_DESC|Zhao Qinglong is the youngest member of the 141 contingent. He did not have such a prominent family life as the Valkyrie, and no illusory exploits such as the Phantom. However, starting from the most common infantryman and by virtue of his perseverance and tenacity, he excelled in his exercises and peacekeeping missions, attracting the attention of the 141 contingent. In the end, Zhao Qinglong passed various rigorous tests and became a member of the 141 contingent. Although he is inexperienced, he has always loved the stubbornness of a veteran player and earned him the "dragon warrior" code. Zhao Qinglong vowed to work harder, do not live up to the trust of comrades in arms.
 SF_UI_DRAGONSOLDIER_SC_NAME|Dragon Soldier
@@ -13124,7 +13124,7 @@ LOAD_HINT_CHA_HINT_DESC_0|Hold down [{+breath_sprint}] sprint
 LOAD_HINT_CHA_HINT_NAME_1|Victory conditions
 LOAD_HINT_CHA_HINT_DESC_1|The team that reach the maximum score first wins
 LOAD_HINT_CHA_HINT_NAME_2|Invincible time
-LOAD_HINT_CHA_HINT_DESC_2|Resurrection players have a short time invincible, resurrection point fixed.
+LOAD_HINT_CHA_HINT_DESC_2|Respawned players have a short time of being invincible.
 LOAD_HINT_DOM_HINT_NAME_0|Defensive positions
 LOAD_HINT_DOM_HINT_DESC_0|Team winning and protecting base wins
 LOAD_HINT_DOM_HINT_NAME_1|The more sites you have, the better
@@ -13284,10 +13284,10 @@ LOAD_HINT_SPY_HINT_DESC_1|special skills get! Rivalry of justice and evil, the d
 LOAD_HINT_SPY_HINT_DESC_2|Actively collaborate to find traitors through voice conversations. (Traitor please start your show)
 LOAD_HINT_PH_HINT_NAME_0|Hiding and searching
 LOAD_HINT_PH_HINT_NAME_1|Watch for the whistle
-LOAD_HINT_PH_HINT_NAME_2|Ability to use
-LOAD_HINT_PH_HINT_DESC_0|Transfiguration of the players to hide their own players will not be found in the search, the search for players to find and eliminate items!
-LOAD_HINT_PH_HINT_DESC_1|Transfiguration objects blow whistles at regular intervals. Pay attention to listening whistles, do not stay too long in one place!
-LOAD_HINT_PH_HINT_DESC_2|Players who search for items trap trapped creatures! Players turned items flash bullets confuse the enemy!
+LOAD_HINT_PH_HINT_NAME_2|Abilities
+LOAD_HINT_PH_HINT_DESC_0|Hiding players will not be shown as players, players must find and eliminate them!
+LOAD_HINT_PH_HINT_DESC_1|Hidden players blow whistles at regular intervals. Pay attention to whistles, do not stay too long in one place!
+LOAD_HINT_PH_HINT_DESC_2|Players who are searching & hiding can use flash to confuse the enemy!
 LOAD_HINT_GUN_HINT_NAME_0|Upgrading weapons!
 LOAD_HINT_GUN_HINT_NAME_1|Win the game!
 LOAD_HINT_GUN_HINT_NAME_2|Shame!
@@ -22642,7 +22642,7 @@ ZARENA_TANK_ABSORB|Ultimate self-sacrifice
 ZARENA_TANK_ABSORB_DESC|active skills: to absorb the injuries suffered by his teammates 15 seconds
 ZARENA_SUPPORT_TRANSFER|back to the blood aura
 ZARENA_SUPPORT_TRANSFER_DESC|annihilating enemies can help nearby teammate back to the blood
-ZARENA_SUPPORT_MOBILE|Scud
+ZARENA_SUPPORT_MOBILE|Runner
 ZARENA_SUPPORT_MOBILE_DESC|Action speed increases, jump height increases
 ZARENA_SUPPORT_DRAIN|Defense aura
 ZARENA_SUPPORT_DRAIN_DESC|Reduces damage from nearby enemies
