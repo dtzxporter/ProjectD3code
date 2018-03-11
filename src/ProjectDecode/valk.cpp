@@ -5,7 +5,7 @@
 #include "hooking.h"
 
 // Log all key requests
-#define LOGGER_MODE 0
+#define LOGGER_MODE 1
 
 // The class we are implementing
 #include "valk.h"
@@ -59,6 +59,14 @@ BYTE* __cdecl SEH_StringEd_GetString(const char* pszReference)
 			result = (BYTE*)pszReference;
 		}
 	}
+
+	// Logger mode
+#if LOGGER_MODE
+	if (pszReference && result)
+	{
+		fprintf(LoggerHandle, "%s : %s\n", pszReference, result);
+	}
+#endif
 
 	return result;
 }
