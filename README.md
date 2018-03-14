@@ -6,8 +6,14 @@ Translations for COD:OL, requires ProjectD3code.
 ## ProjectD3code
 - Download from [Releases](https://github.com/dtzxporter/ProjectD3code/releases) (Or build from source)
 
-## Download links (Rename to TranslationsDB.db)
+## Translation links (Rename to TranslationsDB.db)
 - English [Download](https://github.com/dtzxporter/ProjectD3code/raw/master/en/en_source.db)
+
+## Installation
+- Download both ProjectD3code and a translation db above.
+- Rename the translation file to `TranslationsDB.db`
+- Copy `d3d9.dll` and the database next to the `codoMP_client_shipRetail.exe` application
+- Launch the game
 
 ## Contributing
 - Modify the source.txt file for the language.
