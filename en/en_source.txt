@@ -349,14 +349,14 @@ PLATFORM_DYK_IW4_MSG10|Edit your [card] to show off your title and badge.
 PLATFORM_DYK_IW4_MSG11|Click on your [card], view personal information and career unlock rewards.
 PLATFORM_DYK_IW4_MSG12|Press sprint down button, you can make swoop action.
 PLATFORM_DYK_IW4_MSG13|If you quit during the game, you lose the game bonus.
-PLATFORM_DYK_IW4_MSG14|[Air Drop Supply Box] with random LK skill or ammunition supply.
+PLATFORM_DYK_IW4_MSG14|[Care ACKAGE] with random LK skill or ammunition supply.
 PLATFORM_DYK_IW4_MSG15|[Tactical logo stick] is a signal bomb, used to mark the location of the next rebirth.
 PLATFORM_DYK_IW4_MSG16|Destroys the red signal flare to prevent the enemy from using 【Tactical Logo Stick】.
 PLATFORM_DYK_IW4_MSG17|[Sticky Grenade] will stick to the enemy body.
 PLATFORM_DYK_IW4_MSG18|Encounter [jump] mine immediately lying down, to be free from fatal injuries.
 PLATFORM_DYK_IW4_MSG19|Behind the shield of the [riot] can also block the bullet.
 PLATFORM_DYK_IW4_MSG20|[Heartbeat Sensor] can detect close to the enemy.
-PLATFORM_DYK_IW4_MSG21|Equip 【Detect Immune】 Passive skills, you will not be detected by enemy unmanned reconnaissance aircraft and air support.
+PLATFORM_DYK_IW4_MSG21|Equip 【Detect Immune】 Passive skills, you will not be detected by enemy UAV and air support.
 PLATFORM_DYK_IW4_MSG22|[double fire]: while carrying two main weapons, greatly enhance your firepower.
 PLATFORM_DYK_IW4_MSG24|Crouching down to protect both feet when using 【Riot Shield】.
 PLATFORM_DYK_IW4_MSG25|Death Benefit - [Painkiller]: Give players additional protection in a short period of time after being born again.
@@ -465,7 +465,7 @@ PLATFORM_DYK_ASYM_MSG7|Mechanic can always sprint.
 PLATFORM_DYK_ASYM_MSG8|Mercenary combos can harm all nearby enemies.
 PLATFORM_DYK_ASYM_MSG9|Use smoke bombs to hide your squad's position.
 PLATFORM_DYK_ASYM_MSG10|Mechanical Legion bullet damage defense slightly higher than ordinary human warrior.
-PLATFORM_DYK_ASYM_MSG11|Transfiguration fearless warrior, continue killing the enemy without death can be turned into a leader.
+PLATFORM_DYK_ASYM_MSG11|Transfiguration Juggernaut, continue killing the enemy without death can be turned into a leader.
 PLATFORM_DYK_ASYM_MSG12|Ground spiders in deformed state can intercept several enemy grenades.
 PLATFORM_DYK_ASYM_MSG13|Cyclone's Whirlwind ability to disperse smoke from smoke bombs.
 PLATFORM_DYK_ASYM_MSG14|Killing Mechanic Warriors You can upgrade the human warrior's guns and earn bonuses.
@@ -822,7 +822,7 @@ MPUI_CHOOSE_TEAM|Choose a camp
 MPUI_AUTOASSIGN|Automatically assigned
 MPUI_END_GAME|End the game
 MPUI_END_GAME2|End the game?
-MPUI_LEAVE_GAME|Leave the game
+MPUI_LEAVE_GAME|Stay
 MPUI_LEAVE_GAME1|Leave the game?
 MPUI_CHOOSE_CLASS_CAP|Choose your class
 MPUI_CHOOSE_CLASS|Choose your class
@@ -1380,13 +1380,13 @@ Even kill|machine gun tower
 MPUI_ROLE_TACTICALA_DESC|Weapon: AK47 | Front Grip | Red Dot | Expansion Cartridge
 Equip|Grenade, Flash Bomb x2
 Skills|Dexterity, Toughness, Extreme Marathon
-Even kill|Predator missile
+Even kill|Predator Missile
 MPUI_ROLE_RUSHER|Chargers
 MPUI_ROLE_RUSHER2_DESC|Weapon: Mini-Uzi | Front Grip | Laser | Quick Magazine
 Equip|sticky thunder x1, flash bombs x1
 Skill|Flash mask, lightly loaded,
 Bomb Tool|Start the bomb yourself
-Even kill|small bomb bomb
+Even kill|Hunter Killer
 MPUI_ROLE_OVERWATCH|Watcher
 MPUI_ROLE_OVERWATCH_DESC|Weapon: Cheytac | Muffler | Grip
 Equip|EMP Grenade x2
@@ -1397,7 +1397,7 @@ MPUI_ROLE_SCOUT3_DESC|Weapon: CAR-T | Front Grip | Grip
 Equip|Radiation Ball x2
 Skill|Flash mask, extreme marathon,
 Bomb Tool|Start the bomb yourself
-Even kill|small bomb bomb
+Even kill|Hunter Killer
 MPUI_ROLE_BOMBER|Bomberman
 MPUI_ROLE_BOMBER_DESC|Weapon: Explosion Shield
 Equipment|black hat interference x2
@@ -1421,13 +1421,13 @@ Special skills|umbrella system
 MPUI_ROLE_GUNNER_DESC|^2 Equip: RPD with armor piercing, front grip, muzzle suppressor
 Special skills|Squad body armor
 MPUI_ROLE_SPECIALIST_DESC|^2 Equipment: UMG45 with tactical support, quick magazine, laser
-Special skills|unmanned reconnaissance aircraft
+Special skills|UAV
 MPUI_ROLE_DEMOMAN|Exploding hands
 MPUI_ROLE_DEMOMAN_DESC|^2 Equip: Grenade launcher
 Special skills|mortars
 MPUI_ROLE_NINJA|Stalker
 MPUI_ROLE_NINJA_DESC|^2 Equip: muffler M14 comes with front grip, reflective red dot
-Special skills|anti unmanned reconnaissance aircraft
+Special skills|Counter-UAV
 Bomb Breaker|Remote Bombardment (SCAR)
 Loading tool|Mute Buried (141)
 MPUI_ROLE_RECON|Scout
@@ -1437,7 +1437,7 @@ Bombing tool|delay bomb start (SCAR)
 Loading tool|EMP pulse bomb (141)
 MPUI_ROLE_ROGUE|Grand Theft Auto
 MPUI_ROLE_ROGUE_DESC|^2 Equip: Compound bow
-Special skills|small bomb bomb
+Special skills|Hunter Killer
 Bomb Breaker|Quick Bomb (SCAR)
 Loading tools|self-starting bombs (141)
 MPUI_SEARCH_AND_DESTROY_CHMP|Blast Heroes
@@ -2297,7 +2297,7 @@ WEAPON_AK47_SHOTGUN|AK-47 + Drop Shotgun
 WEAPON_AK47_REDDOT|AK-47 + red dot mirror
 WEAPON_AK47_FMJ|AK-47 + full metal armor
 WEAPON_SENTRY_GUN|Sentry Gun
-WEAPON_SENTRY_MINIGUN|Sentinel Machine Gun
+WEAPON_SENTRY_MINIGUN|Sentry Gun
 WEAPON_KRISS|dagger
 WEAPON_KRISS_ACOG|dagger + ACOG mirror
 WEAPON_KRISS_ACOG_SILENCER|dagger + muffler + ACOG mirror
@@ -2637,9 +2637,9 @@ WEAPON_SPAS12_HEARTBEAT_SENSOR|Frankie-12+ Heartbeat Detector
 WEAPON_M79_X2|M79 Attacker x2
 WEAPON_CAMO|&&1 - Camouflage
 WEAPON_UPGRADE|&&1 - &&2
-WEAPON_AIRDROP_SENTRY_MARKER|Sentinel Parachute Marker
+WEAPON_AIRDROP_SENTRY_MARKER|Sentry Gun Airdrop Marker
 WEAPON_AIRDROP_MEGA_MARKER|Emergency drop tag
-WEAPON_AIRDROP_SAM_MARKER|【Sam Anti-aircraft missiles】 airdrop tag
+WEAPON_AIRDROP_SAM_MARKER|【Sam Turret】 Airdrop Marker
 WEAPON_WA2000_ACOG|Walter 2000 + ACOG mirror
 WEAPON_WA2000_FMJ|Walter 2000 + all-metal was a bullet
 WEAPON_WA2000_SILENCER|Walter 2000 + silencer
@@ -2696,7 +2696,7 @@ WEAPON_SCAVENGER_BAG|Scavenger
 WEAPON_AA12_HB_SILENCER|Acheson AA-12 + Heartbeat Detector + Silencer
 WEAPON_CALL_FOR_SUPPORT|Call Support
 WEAPON_GASMASK|Gas Mask
-WEAPON_TOW_TURRET_DROP|[Sam anti-aircraft missiles] airdrop tag
+WEAPON_TOW_TURRET_DROP|[Sam Turret] Airdrop Marker
 WEAPON_TABUN_GRENADE|Nova bomb
 WEAPON_M1911|M1911
 WEAPON_PYTHON|"Python" revolver
@@ -2780,7 +2780,7 @@ WEAPON_TOMMYGUNEVENT|Thomson lover killer
 WEAPON_SPORTPISTOL|MK1911
 WEAPON_FA1911NCM|FA1911
 WEAPON_GPAS12|GPAS-12
-WEAPON_AIRDROP_JUGGERNAUT_MARKER|Fearless Warrior Air Drop Tags
+WEAPON_AIRDROP_JUGGERNAUT_MARKER|Juggernaut Airdrop Marker
 WEAPON_KATANA|Military long knife
 WEAPON_SYRETTE|Syrette
 WEAPON_RCL_AUTOCANNON_KPIN|'Spike' RCL Autocannon
@@ -2809,7 +2809,7 @@ WEAPON_CROSSBOW_EXPLOSIVE|Explosive Crossbow
 WEAPON_KNIFE_BALLISTIC|Tactical Spring Knife
 WEAPON_MG4HEAVEN|MAG43 - Wings of Light
 WEAPON_P90SCRAWL|PDW90 art of war
-WEAPON_MISSILE_DRONE|small bomb bomb
+WEAPON_MISSILE_DRONE|Hunter Killer
 WEAPON_FF58HERO|FA7.62-L ghost
 WEAPON_TAGGER_LAUNCHER|Tagger Launcher
 WEAPON_SLAYMORE|Sword of Freedom
@@ -3472,9 +3472,9 @@ PERKS_DESC_HARDLINE_EVAC_BRIEF|Get 1 card after each attack
 PERKS_DESC_ENGINEER_SURV_BRIEF|Speeds up teammates
 PERKS_DESC_ENGINEER_EVAC_BRIEF|speed up the treatment of teammates
 PERKS_DESC_ENGINEER_ZM_BRIEF|Speeding Up Teammates and Ammunition
-PERKS_PREDATOR_MISSILE|Land-to-Air Missile
+PERKS_PREDATOR_MISSILE|Predator Missile
 PERKS_DESC_PREDATOR_MISSILE|Destroy 4 enemies in succession to get 【Land to Air Missile】
-PERKS_AC130|Airborne gunboat
+PERKS_AC130|AC-130
 PERKS_DESC_AC130|Call [Aerial Gunboat] Support Requires Continued Destroying Enemy 7
 PERKS_CAREPACKAGE|Supply Box
 PERKS_DESC_CAREPACKAGE|[airdrop supply box] support for the need to continuously annihilate the enemy 2
@@ -3786,7 +3786,7 @@ PERKS_DEADSILENCE|Dead Silence
 PERKS_DESC_DEADSILENCE|Silent footsteps. Killing the enemy will not display a death icon. 
 PERKS_DESC_DEADSILENCE_BRIEF|Silent footsteps. Killing the enemy will not display a death icon. 
 PERKS_GHOST|Ghost
-PERKS_DESC_GHOST|Will not be detected by enemy unmanned reconnaissance aircraft.
+PERKS_DESC_GHOST|Will not be detected by enemy UAV.
 PERKS_DESC_GHOST_BRIEF|Not detected by enemy IDPs.
 PERKS_MEDIC|Medic
 PERKS_DESC_MEDIC|Limit PVE mode, treatment teammates speed up, while getting 25 armor.
@@ -3799,39 +3799,39 @@ PERKS_DESC_AWARENESS|Enemy movements are louder. Users can not hear dead silence
 PERKS_DESC_AWARENESS_BRIEF|Enemy movements are louder.
 PERKS_BOMBDEFUSE|Bomb Kit
 PERKS_DESC_BOMBDEFUSE|This toolkit lets you disarm bombs up to 50% faster
-KILLSTREAKS_UAV|Unmanned reconnaissance aircraft
+KILLSTREAKS_UAV|UAV
 KILLSTREAKS_UAV_DESC|Aerial Reconnaissance Opportunities Show all enemy positions on your radar, destroying 3 enemies in a row
-KILLSTREAKS_UAV_PRO|Advanced Unmanned Reconnaissance Aircraft
+KILLSTREAKS_UAV_PRO|UAV Pro
 KILLSTREAKS_UAV_PRO_DESC|Advanced aerial reconnaissance opportunities display all enemy positions on your radar, scanning faster and displaying longer, requiring 4 consecutive enemy destroyers
 KILLSTREAKS_AIRSTRIKE|Air Strike
 KILLSTREAKS_AIRSTRIKE_DESC|Call Bomber Bombing at Specified Site
 KILLSTREAKS_HELICOPTER|Attack Helicopter
 KILLSTREAKS_HELICOPTER_DESC|Calling an attack helicopter to armor the battlefield requires 7 consecutive enemy annihilation
-KILLSTREAKS_HELICOPTER_PRO|Advanced Attack Helicopter
+KILLSTREAKS_HELICOPTER_PRO|Attack Helicopter Pro
 KILLSTREAKS_HELICOPTER_PRO_DESC|Calling an advanced attack helicopter to arm an enemy on the battlefield, it lasts longer and attacks the ground turret, killing 7 people
-KILLSTREAKS_AC130|Airborne gunboat
+KILLSTREAKS_AC130|AC-130
 KILLSTREAKS_AC130_DESC|Able to [Refit Gunboat] gunner 40 seconds. Need to annihilate 12 enemies in a row.
-KILLSTREAKS_AC130_PRO|Light aerial gunboat
+KILLSTREAKS_AC130_PRO|AC-130 Pro
 KILLSTREAKS_AC130_PRO_DESC|25-second gunner to act as Light Airborne Gunner. Need to destroy 10 enemies in a row.
-KILLSTREAKS_PREDATOR_MISSILE|Land-to-Air Missile
-KILLSTREAKS_PREDATOR_MISSILE_DESC|Telecontrol a remotely piloted missile that requires 5 consecutive enemy annihilators.
-KILLSTREAKS_PREDATOR_MISSILE_PRO|Advanced Ground to Air Missile
-KILLSTREAKS_PREDATOR_MISSILE_PRO_DESC|A remotely piloted missile fired from the air, whose radar displays both personnel and vehicle targets. Need to continuously annihilate 5 enemy.
-KILLSTREAKS_HELICOPTER_MINIGUN|Helicopter shooter
+KILLSTREAKS_PREDATOR_MISSILE|Predator Missile
+KILLSTREAKS_PREDATOR_MISSILE_DESC|Control a remotely piloted missile that requires 5 kills without dying
+KILLSTREAKS_PREDATOR_MISSILE_PRO|Predator Missile Pro
+KILLSTREAKS_PREDATOR_MISSILE_PRO_DESC|Control a remotely piloted missile, whose radar displays both personnel and vehicular targets. Requires 5 kills without dying.
+KILLSTREAKS_HELICOPTER_MINIGUN|Chopper gunner
 KILLSTREAKS_HELICOPTER_MINIGUN_DESC|Take an attack helicopter and use a hatch machine gun to shoot at the ground, destroying 8 enemies in a row.
-KILLSTREAKS_HELICOPTER_MINIGUN_PRO|Advanced Helicopter Shooter
+KILLSTREAKS_HELICOPTER_MINIGUN_PRO|Chopper Gunner Pro
 KILLSTREAKS_HELICOPTER_MINIGUN_PRO_DESC|Take an attack helicopter and use a hatch machine gun to shoot at the ground. You can stay longer on a helicopter and need to continually wipe out 11 people
 KILLSTREAKS_PRECISION_AIRSTRIKE|Accurate Air Strike
 KILLSTREAKS_PRECISION_AIRSTRIKE_DESC|Specify the location and direction of the warplanes bombing, suitable for a large annihilation of a large number of enemy forces, the need to continuously destroy the enemy 6
 KILLSTREAKS_PRECISION_AIRSTRIKE_PRO|Advanced Precision Air Strike
 KILLSTREAKS_PRECISION_AIRSTRIKE_PRO_DESC|Specify the location and direction of the bombing of the aircraft, and can monitor the location of the enemy on the map, suitable for a large annihilation of a large number of enemy troops, the need to continuously destroy the enemy 6
-KILLSTREAKS_AIRDROP|Air Drop Supply Box
+KILLSTREAKS_AIRDROP|Care Package
 KILLSTREAKS_AIRDROP_DESC|Airdrop a random recharge tank to your designated location, destroying 5 enemies in a row.
-KILLSTREAKS_AIRDROP_PRO|Advanced Air Drop Crate
+KILLSTREAKS_AIRDROP_PRO|Care Package Pro
 KILLSTREAKS_AIRDROP_PRO_DESC|Helicopter airdrops a dunk filled with random liaisons or ammunition to your designated location, where advanced dungeons are more likely to be offered than regular supplies and requires 4 consecutive enemies
 KILLSTREAKS_AIRDROP_SENTRY|Sentry Gun
 KILLSTREAKS_AIRDROP_SENTRY_DESC|Immediately get an automatic machine gun turret that can be placed in the battlefield at will.
-KILLSTREAKS_AIRDROP_SENTRY_PRO|Advanced sentinel machine gun
+KILLSTREAKS_AIRDROP_SENTRY_PRO|Sentry Gun Pro
 KILLSTREAKS_AIRDROP_SENTRY_PRO_DESC|Instantly get an automatic machine gun turret that can be placed in the battlefield at will. It has a higher hit rate, longer range and faster firing rate than a regular whistle-gunship machine gun. It requires 5 consecutive enemy destroyers
 KILLSTREAKS_HARRIER_AIRSTRIKE|Hover fighter
 KILLSTREAKS_HARRIER_AIRSTRIKE_DESC|Call a fixed-wing vertical take-off and landing fighter over the battlefield to attack the enemy. Before the flight, there will be a flying formation to bomb a designated area.
@@ -3845,13 +3845,13 @@ KILLSTREAKS_EMP|Electromagnetic Pulse Bullet
 KILLSTREAKS_EMP_DESC|Temporarily interferes with all of your enemy's electronics, rendering it inoperable, destroying all vehicles with electronics, and tactical equipment, eliminating the need for 15 consecutive enemy destroyers
 KILLSTREAKS_EMP_PRO|Advanced electromagnetic pulse bomb
 KILLSTREAKS_EMP_PRO_DESC|Temporarily interferes with all enemy electronic equipment inoperable, destroying all vehicles with electronic equipment and tactical equipment, including the enemy's "mother of bombs" effect, requiring a continuous wiped out enemy of 15
-KILLSTREAKS_COUNTER_UAV|Anti-reconnaissance aircraft
+KILLSTREAKS_COUNTER_UAV|Counter-UAV
 KILLSTREAKS_COUNTER_UAV_DESC|In the next period of time to interfere with the enemy radar, so that the whereabouts of friendly troops will not be detected by the enemy, the need to continuously destroy the enemy 4
-KILLSTREAKS_COUNTER_UAV_PRO|Advanced anti-reconnaissance aircraft
+KILLSTREAKS_COUNTER_UAV_PRO|Counter-UAV Pro
 KILLSTREAKS_COUNTER_UAV_PRO_DESC|In the next period of time interfere with the enemy radar, the friendly movement will not be detected by the enemy, the interference sustained and more lasting, the need to continuously destroy the enemy 4
-KILLSTREAKS_PAVELOW|Heavy helicopter
+KILLSTREAKS_PAVELOW|Pave Low
 KILLSTREAKS_PAVELOW_DESC|Call a heavy helicopter to support combat, need to annihilate 9 enemies in a row
-KILLSTREAKS_PAVELOW_PRO|Advanced Heavy Duty Helicopter
+KILLSTREAKS_PAVELOW_PRO|Pave Low Pro
 KILLSTREAKS_PAVELOW_PRO_DESC|Call a heavy helicopter to support combat, it stays on the battlefield longer and can attack the ground turret, you need to continuously annihilate 9 people
 KILLSTREAKS_NONE|None
 KILLSTREAKS_NONE_DESC|Llinking skills not selected
@@ -3865,10 +3865,10 @@ KILLSTREAKS_SENTRY|whistle machine gun
 KILLSTREAKS_SENTRY_DESC|Instantly get an automatic machine gun turret that can be placed in the battlefield at will.
 KILLSTREAKS_SENTRY_PRO|Advanced whistle machine gun
 KILLSTREAKS_SENTRY_PRO_DESC|Immediately get an automatic machine gun turret that can be placed in the battlefield at will. It has a higher hit rate, longer range and faster firing rate than ordinary sentry machine gun, and requires 5 consecutive enemy annihilators
-KILLSTREAKS_MORTAR|Mortar squad
-KILLSTREAKS_MORTAR_DESC|The mortar squad will carry out artillery assault bombing on the 3 target locations you designated. It will require 6 consecutive enemy destroyers
-KILLSTREAKS_MORTAR_PRO|Advanced Mortar Squad
-KILLSTREAKS_MORTAR_PRO_DESC|The mortar squad will carry out artillery bombing and assault on your designated 4 target locations, and will need to destroy 8 enemies in a row.
+KILLSTREAKS_MORTAR|Mortar Squad
+KILLSTREAKS_MORTAR_DESC|The mortar team will carry out artillery assault bombing on the 3 target locations you designated. It will require 6 consecutive enemy destroyers
+KILLSTREAKS_MORTAR_PRO|Mortar Squad Pro
+KILLSTREAKS_MORTAR_PRO_DESC|The mortar team will carry out artillery bombing and assault on your designated 4 target locations, and will need to destroy 8 enemies in a row.
 KILLSTREAKS_RCBOMB|Remote Bomber
 KILLSTREAKS_RCBOMB_CRATE|Press ^2 &&1 ^7 to operate 【Remote Bomb Cart】
 KILLSTREAKS_RCBOMB_DESC|Remote control of a small bomb car to attack the enemy, the need to continuously destroy the enemy three
@@ -3877,30 +3877,30 @@ KILLSTREAKS_RCBOMB_PRO_DESC|Remote control of a small bomb car to attack the ene
 KILLSTREAKS_RCBOMB_INBOUND|[Remote Bomb Cart] is approaching
 KILLSTREAKS_RCBOMB_NOT_AVAILABLE|Remote bomber can not be used
 KILLSTREAKS_RCBOMB_NOT_PLACABLE|Can not place remote bomber here
-KILLSTREAKS_SR71|Satellite Monitoring
+KILLSTREAKS_SR71|Orbital VSAT
 KILLSTREAKS_SR71_DESC|Show all the enemy's location and the direction they are facing. On the radar, the satellite can not be shot down, you need to continuously destroy the enemy 8
-KILLSTREAKS_SR71_PRO|Advanced satellite monitoring
-KILLSTREAKS_SR71_PRO_DESC|Show all enemies' locations and where they are facing. On the radar, the satellites can not be shot down, it lasts longer than regular satellite surveillance and requires 8 consecutive enemy destroyers
-KILLSTREAKS_DOGS|Dogs
+KILLSTREAKS_SR71_PRO|Orbital VSAT Pro
+KILLSTREAKS_SR71_PRO_DESC|Show all enemies' locations and where they are facing. Can not be shot down, lasts longer  and requires 8 consecutive enemy destroyers
+KILLSTREAKS_DOGS|Attack Dogs
 KILLSTREAKS_DOGS_DESC|Release 4 Canine Bings to bite enemies, destroying 10 enemies in a row.
-KILLSTREAKS_DOGS_PRO|Light Army Dog
+KILLSTREAKS_DOGS_PRO|Attack Dogs Pro
 KILLSTREAKS_DOGS_PRO_DESC|Release 2 Canine Bings to bite the enemy. Need to annihilate 7 enemies in a row.
 KILLSTREAKS_DOGS_INBOUND|【Dog】 is approaching
 KILLSTREAKS_DOGS_NOT_AVAILABLE|[Dogs] can not be used
-KILLSTREAKS_SAM_TURRET|Sam anti-aircraft missiles
+KILLSTREAKS_SAM_TURRET|Sam Turret
 KILLSTREAKS_SAM_TURRET_DESC|Immediately gaining a Sam air defense missile launcher to combat enemy airborne targets, 4 consecutive enemy destroyers
-KILLSTREAKS_SAM_TURRET_PRO|Advanced SAM air defense missiles
-KILLSTREAKS_SAM_TURRET_PRO_DESC|Immediately get a senior Sam anti-aircraft missile launcher used to combat the enemy's air targets, the attack speed, the need to continuously annihilate enemy 4
-KILLSTREAKS_SAM_TURRET_NOT_AVAILABLE|[SAM-SAM] unusable
+KILLSTREAKS_SAM_TURRET_PRO|Sam Turret Pro
+KILLSTREAKS_SAM_TURRET_PRO_DESC|Immediately get a Sam Turret Pro used to combat the enemy's air targets, the attack speed, the need to continuously annihilate enemy 4
+KILLSTREAKS_SAM_TURRET_NOT_AVAILABLE|[SAM-Turret] unusable
 KILLSTREAKS_SAM_TURRET_PICKUP|Hold ^2 &&1 ^7 Put away Sam's air defense missiles
 KILLSTREAKS_TURRET_HACKING|Hold down ^2 &&1 ^7 to control machine gun tower
 KILLSTREAKS_SCRAMBLER_HACKING|Hold ^2 &&1 ^7 Intruder Electronic Jammer
 KILLSTREAKS_TROPHY_HACKING|Press and hold ^2 &&1 ^7 key to invade enemy explosion protection system
 KILLSTREAKS_GENERIC_HACKING|Press and hold ^2 &&1 ^7 to invade the system
 KILLSTREAKS_AIRDROP_SAM_TURRET|Sam Air Defense Missile
-KILLSTREAKS_AIRDROP_SAM_TURRET_DESC|Drop a Sam air defense missile launcher to strike the enemy's aerial target, destroying four enemies in a row
+KILLSTREAKS_AIRDROP_SAM_TURRET_DESC|Drop a SAM Turret to strike the enemy's aerial target, destroying four enemies in a row
 KILLSTREAKS_AIRDROP_SAM_TURRET_PRO|Advanced SAM Air Defense Missile
-KILLSTREAKS_AIRDROP_SAM_TURRET_PRO_DESC|Drop an Advanced Sam anti-aircraft missile launcher to strike the enemy's air targets for faster attack and 4 additional enemies in a row
+KILLSTREAKS_AIRDROP_SAM_TURRET_PRO_DESC|Drop an Sam Turret Pro to strike the enemy's air targets for faster attack and 4 additional enemies in a row
 KILLSTREAKS_DEADSHOT|Precision Potion
 KILLSTREAKS_DEADSHOT_DESC|- Reduce the center of gravity size
 KILLSTREAKS_LONGERSPRINT|Endurance Potion
@@ -3918,9 +3918,9 @@ KILLSTREAKS_SCAVENGER_DESC|- Able to replenish ammunition from a dead mechanical
 KILLSTREAKS_DISCOUNT|Discount Potion
 KILLSTREAKS_DISCOUNT_DESC|- Return 10% of purchase amount
 KILLSTREAKS_LOCKER|Locker
-KILLSTREAKS_JUGGERNAUT|Fearless warrior
+KILLSTREAKS_JUGGERNAUT|Juggernaut
 KILLSTREAKS_JUGGERNAUT_DESC|Get high body armor, light machine guns and sand eagles, need to wreak havoc in 11 people.
-KILLSTREAKS_JUGGERNAUT_KINGPIN|Boss
+KILLSTREAKS_JUGGERNAUT_KINGPIN|Juggernaut Pro
 KILLSTREAKS_JUGGERNAUT_KINGPIN_DESC|Get high-level body armor, light machine gun and sand eagle.
 KILLSTREAKS_HELICOPTER_KILL|Attack Helicopter
 KILLSTREAKS_HELICOPTER_MINIGUN_KILL|Chopper Gunner
@@ -3932,7 +3932,7 @@ KILLSTREAKS_MORTAR_KILL|Amazing weather
 KILLSTREAKS_MELEE_KILL|Kill Skill "Army Dog" Kill
 KILLSTREAKS_RCBOMB_KILL|KA-BOOM !!!
 KILLSTREAKS_TURRET_KILL|Kill Skill "whistle machine gun" Kill
-KILLSTREAKS_MISSILE_DRONE|Small bomb bomb
+KILLSTREAKS_MISSILE_DRONE|Hunter Killer
 KILLSTREAKS_MISSILE_DRONE_DESC|Launched bomb small plane can find its own ground or air targets and attack. Need to destroy enemy 4 consecutive
 KILLSTREAKS_KILLS_REQUIRED|Requires Fight Annihilation &&1 person
 KILLSTREAKS_MISSILE_DRONE_KILL|Kill Skill Bomblet Kills
@@ -4079,8 +4079,8 @@ SPLASHES_OBJECTIVE_COMPLETE_DESC|PLASHES_OBJECTIVE_COMPLETE_DESC:
 SPLASHES_SHIELDASSIST|Riot Control!
 SPLASHES_SHIELDASSIST_DESC|You are outstanding enemy.
 SPLASHES_DESTROYED_HELICOPTER|Shoot down enemy helicopters!
-SPLASHES_DESTROYED_PAVELOW|Down the enemy [heavy helicopter]!
-SPLASHES_DESTROYED_UAV|Defeat the enemy unmanned reconnaissance aircraft!
+SPLASHES_DESTROYED_PAVELOW|Destroyed an enemy Pave Low!
+SPLASHES_DESTROYED_UAV|Destroyed the enemy UAV!
 SPLASHES_DESTROYED_HARRIER|downed enemy [hover fighter]!
 SPLASHES_DESTROYED_AC130|The enemy shot down the air gunboat!
 SPLASHES_DESTROYED_MINIGUNNER|Down the enemy helicopters!
@@ -4310,7 +4310,7 @@ SPLASHES_ZRESCUE_DOGTAG|Get a dog tag!
 SPLASHES_ZRESCUE_DOGTAGS|&&1 dog tag has been picked up
 SPLASHES_ZRESCUE_DOGTAG_DESC|This tag can be used to support props exchange
 SPLASHES_EVAC_HLOOM_GENERAL|You found a general laptop!
-SPLASHES_EVAC_HLOOM_GENERAL_DESC|Mortar Squad Lost Skill!
+SPLASHES_EVAC_HLOOM_GENERAL_DESC|Mortar Team Lost Skill!
 SPLASHES_EVAC_HLOOM_TEACHER|You found a biochemist's textbook!
 SPLASHES_EVAC_HLOOM_TEACHER_DESC|Get 500XP Bonus!
 SPLASHES_EVAC_HLOOM_RUNNER|You found a long-distance runner's energy drink!
@@ -4397,17 +4397,17 @@ SPLASHES_GUNSHIP_MULTIPLIER_2|Eradicate!
 SPLASHES_GUNSHIP_MULTIPLIER_3|Annihilation!
 SPLASHES_GUNSHIP_REPAIR_KIT_USED|Conveyor fixed!
 SPLASHES_GUNSHIP_BASIC_REPAIR|Conveyor fixed!
-SPLASHES_HIJACKED_JUGGERNAUT|You've got your fearless warrior!
-SPLASHES_GIVEAWAY_JUGGERNAUT|... Got a fearless warrior
-SPLASHES_KILLED_JUGGERNAUT|Get rid of the fearless warrior!
-SPLASHES_NEW_JUGGERNAUT|New fearless warrior!
-SPLASHES_JUGGERNAUT_KILL|Fearless soldiers kill
-SPLASHES_DROPPED_JUGGERNAUT|Drop fearless warrior!
-SPLASHES_GOT_JUGGERNAUT|fearless warrior
-SPLASHES_GOT_JUGGERNAUT_DESC|Now you are a fearless warrior!
+SPLASHES_HIJACKED_JUGGERNAUT|You've got your Juggernaut!
+SPLASHES_GIVEAWAY_JUGGERNAUT|... Got a Juggernaut
+SPLASHES_KILLED_JUGGERNAUT|Killed the Juggernaut!
+SPLASHES_NEW_JUGGERNAUT|New Juggernaut!
+SPLASHES_JUGGERNAUT_KILL|Juggernaut kill!
+SPLASHES_DROPPED_JUGGERNAUT|Dropped Juggernaut!
+SPLASHES_GOT_JUGGERNAUT|Juggernaut
+SPLASHES_GOT_JUGGERNAUT_DESC|Now you are the Juggernaut!
 SPLASHES_GOT_KINGPIN|Boss
 SPLASHES_GOT_KINGPIN_DESC|Now you are the leader!
-SPLASHES_JUGGERNAUT_KILL_JUGGERNAUT|Fearless soldiers kill the fearless warrior!
+SPLASHES_JUGGERNAUT_KILL_JUGGERNAUT|Juggernauts kill Juggernauts!
 SPLASHES_ZRESCUE_KATANA|Military long knife!
 SPLASHES_ZRESCUE_KATANA_DESC|PLASHES_ZRESCUE_KATANA_DESC:
 SPLASHES_ZRESCUE_KATANA_DROPPED|Military Longsword Drop!
@@ -4532,7 +4532,7 @@ SPLASHES_DES_DESTROYER_KILLED|Destroyer Killed!
 SPLASHES_DES_DESTROYER_KILLED_DESC|You did &&1% of Damage
 SPLASHES_ROLE_TAGGED_ENEMY|Enemy Tagged!
 SPLASHES_ROLE_TAGGED_PRESIDENT|President Tagged!
-SPLASHES_DESTROYED_PREDATOR_MISSILE|Destroyed Land-to-Air Missile!
+SPLASHES_DESTROYED_PREDATOR_MISSILE|Destroyed Predator Missile!
 SPLASHES_INFECT_LAST_LIFE|Destroying coming
 SPLASHES_INFECT_LAST_LIFE_DESC|All Infected have one life remaining!
 SPLASHES_INFECT_LEADER_BLITZ_SURVIVE|Blitz
@@ -4543,8 +4543,8 @@ SPLASHES_DES_AIRDROP|Dropping is about to arrive ...
 SPLASHES_PH_PROP_FINALBLOW|^9 Beautiful! You kill an item
 SPLASHES_PH_PROP_KILLED|^3 Destroy one item
 SPLASHES_PH_PROP_SURVIVED|^8 Survival!
-SPLASHES_INFECT_EARNED_JUGGERNAUT|Become a fearless warrior!
-SPLASHES_INFECT_EARNED_KINGPIN|Can become a leader!
+SPLASHES_INFECT_EARNED_JUGGERNAUT|Become a Juggernaut!
+SPLASHES_INFECT_EARNED_KINGPIN|Can become a Juggernaut Pro!
 SPLASHES_CHICKEN_KILL|Chicken Humiliated!
 SPLASHES_CHICKEN_CONFIRM|Chicken Executed!
 SPLASHES_SUPER_CHICKEN_CONFIRM|Super Chicken Executed!
@@ -4613,7 +4613,7 @@ SPLASHES_DMZ_DAY6|the sixth day
 SPLASHES_DMZ_DAY6_DESC|Last day
 SPLASHES_MICROBOSS_RETREATS|Boss retreat
 SPLASHES_MICROBOSS_RETREATS_DESC|A little boss left the battlefield
-SPLASHES_CONSUMABLE_CARE_PACKAGE_USED|Air Drop Supply Box Ready.
+SPLASHES_CONSUMABLE_CARE_PACKAGE_USED|Care Package Ready.
 SPLASHES_GOT_JUGGERNAUT_PRO|MANIAC
 SPLASHES_GOT_JUGGERNAUT_PRO_DESC|You are now the Maniac!
 SPLASHES_KILLED_JUGGERNAUT_PRO|Killed Maniac
@@ -4685,7 +4685,7 @@ CHALLENGE_ELITE_CHALLENGES|Novice practicing to show the edge, the veteran pract
 CHALLENGE_FLYSWATTER|Fly swatter
 CHALLENGE_GOODBYE|find yourself short
 CHALLENGE_BASE_JUMP|peerless light Gong
-CHALLENGE_KILL_3_ENEMIES_WITHOUT|Calling a [unmanned reconnaissance aircraft]
+CHALLENGE_KILL_3_ENEMIES_WITHOUT|Call a [UAV]
 CHALLENGE_KILL_5_ENEMIES_WITHOUT|Call an air strike
 CHALLENGE_KILL_7_ENEMIES_WITHOUT|Call a helicopter
 CHALLENGE_SHOOT_DOWN_AN_ENEMY_HELICOPTER|Shoot down an enemy helicopter
@@ -4807,7 +4807,7 @@ CHALLENGE_HURT_AN_ENEMY_WITH_A|Wound the enemy with your primary, and then use t
 CHALLENGE_PLAY_AN_ENTIRE_MATCH|Complete a match for either mode with a 5: 1 Kill / Death Rival
 CHALLENGE_KILL_AN_ENEMY_BY_USING|Throw enemies by placing explosives that strike the wall
 CHALLENGE_KILL_AN_ENEMY_BY_SETTING|Bombing with enemies exploded by other explosives Betty or C4
-CHALLENGE_CALL_IN_A_UAV_3_TIMES|3 calls in a single game 【Unmanned Reconnaissance】
+CHALLENGE_CALL_IN_A_UAV_3_TIMES|Call in a UAV 3 times in a game
 CHALLENGE_CALL_IN_AN_AIRSTRIKE|single field three call twice [precise air attack]
 CHALLENGE_CALL_IN_A_HELICOPTER|Call in 2 Attack Helicopters in a single match
 CHALLENGE_KILL_10_ENEMIES_IN_A|Kill 10 opponents in one match without being killed
@@ -4846,7 +4846,7 @@ CHALLENGE_SPYGAME_PRO|Advanced Spy Game
 CHALLENGE_IRONLUNGS_PRO|Advanced Iron Lung
 CHALLENGE_DEADSILENCE_PRO|Silent expert
 CHALLENGE_GET_N_CLOSE_DS_KILLS|Equip your silent passive skills and annihilate 1 enemy at close range.
-CHALLENGE_UAVJAMMER_PRO|Advanced anti-reconnaissance aircraft
+CHALLENGE_UAVJAMMER_PRO|Counter-UAV Pro
 CHALLENGE_SCAVENGER_PRO|Scavenger Pro
 CHALLENGE_PICKUP_N_SCAVENGER_PACKS|equipped with passive skills [Scavenger], supply &&1
 CHALLENGE_LASTSTAND_PRO|Senior last minute
@@ -4868,7 +4868,7 @@ CHALLENGE_TACTICALMASK_DESC|Equipped with a flashing mask to reduce the time of 
 CHALLENGE_PERKS|Perks
 CHALLENGE_PERK_CHALLENGES|Complete these tasks to upgrade your passive skills
 CHALLENGE_THEWATCHMAN|Catcher
-CHALLENGE_DESC_THEWATCHMAN|In a single game call &&1 [unmanned reconnaissance aircraft]
+CHALLENGE_DESC_THEWATCHMAN|In a single game call &&1 [UAV]
 CHALLENGE_THESUPPLIER|Supply Officer
 CHALLENGE_DESC_THESUPPLIER|Supplies ammunition 50 times using a supply box
 CHALLENGE_SUNBLOCK|sunscreen
@@ -4918,7 +4918,7 @@ CHALLENGE_DEFCON_CHALLENGES|combat readiness challenge
 CHALLENGE_GET_N_ASSISTS|Get &&1 assists
 CHALLENGE_KILL_N_ENEMY_THROUGH|Kill &&1 players through walls
 CHALLENGE_BLOW_UP_N_CARS|Destroy &&1 car
-CHALLENGE_CALL_IN_A_UAV_N_TIMES|call unmanned reconnaissance aircraft &&1 time
+CHALLENGE_CALL_IN_A_UAV_N_TIMES|Call in a UAV &&1 time(s)
 CHALLENGE_DESTROY_N_ENEMY_EXPLOSIVES|Destroy &&1 enemy equipment
 CHALLENGE_KILL_N_ENEMY_WITH_THE|Use Daggers Close Attack, Kill 1 & 1
 CHALLENGE_FREEFORALL_VICTOR|Personal athletics winner
@@ -5065,14 +5065,14 @@ CHALLENGE_KILLS_CAPS|Kill
 CHALLENGE_COOP_CAPS|Desperate / Last World
 CHALLENGE_UAVS|The radar is in place
 CHALLENGE_HELICOPTERS|Helicopter in place
-CHALLENGE_DESC_UAV|Use of Lance Skill [Unmanned Reconnaissance Aircraft] &&1 time
-CHALLENGE_DESC_COUNTER_UAV|Use Lance Skill [Anti-reconnaissance aircraft] &&1 time
+CHALLENGE_DESC_UAV|Call in a [UAV] &&1 time
+CHALLENGE_DESC_COUNTER_UAV|Use the [Counter-UAV] &&1 time(s)
 CHALLENGE_DESC_SENTRY|Use Lance Skill [whistle-mounted machine gun] &&1 time
 CHALLENGE_DESC_PREDATOR_MISSILE|Use of Lance Skill [Land to Air Missile] &&1 time
-CHALLENGE_DESC_HELICOPTER|call &&1 [attack helicopters]
-CHALLENGE_DESC_HELICOPTER_FLARES|call &&1 [heavy helicopter]
-CHALLENGE_DESC_HELICOPTER_MINIGUN|Call &&1 [Helicopter Archer]
-CHALLENGE_DESC_UAVS|call &&1 [unmanned reconnaissance aircraft] or [anti-reconnaissance aircraft]
+CHALLENGE_DESC_HELICOPTER|Call in &&1 Attack Helicopter
+CHALLENGE_DESC_HELICOPTER_FLARES|Call in &&1 Pave Low
+CHALLENGE_DESC_HELICOPTER_MINIGUN|Call in &&1 Chopper Gunner
+CHALLENGE_DESC_UAVS|Call in &&1 UAV or Counter-UAV
 CHALLENGE_DESC_HELICOPTERS|Call &&1st helicopter
 CHALLENGE_CLOSER|Terminator
 CHALLENGE_DESC_CLOSER|&&1 game to finish the whole game
@@ -5151,7 +5151,7 @@ CHALLENGE_UAV|Skynet Recovery
 CHALLENGE_EMP|Closed day
 CHALLENGE_COUNTER_UAV|Soldier will block
 CHALLENGE_SENTRY|sentinel veterans
-CHALLENGE_PREDATOR_MISSILE|Land-to-Air Missile
+CHALLENGE_PREDATOR_MISSILE|Predator Missile
 CHALLENGE_HELICOPTER|[attack helicopter] veterans
 CHALLENGE_HELICOPTER_FLARES|21 tons of giants
 CHALLENGE_REAPER|Death Call
@@ -5302,8 +5302,8 @@ CHALLENGE_SPEC1_CON_DIFFICULTY1|Sneaking into the Masters (Difficulties)
 CHALLENGE_SPEC1_CON_DIFFICULTY2|Sneak a Master (Hero)
 CHALLENGE_SPEC2_CON_DIFFICULTY1|Sniper (difficult)
 CHALLENGE_SPEC2_CON_DIFFICULTY2|Sniper (hero)
-CHALLENGE_SPEC_HUNTED_DIFFICULTY1|Airborne Gunboat (Difficult)
-CHALLENGE_SPEC_HUNTED_DIFFICULTY2|Airborne Gunboats (Heroes)
+CHALLENGE_SPEC_HUNTED_DIFFICULTY1|AC-130(Difficult)
+CHALLENGE_SPEC_HUNTED_DIFFICULTY2|AC-130 (Heroes)
 CHALLENGE_SPEC_BRIDGE_DIFFICULTY1|Breakthrough (Difficulties)
 CHALLENGE_SPEC_BRIDGE_DIFFICULTY2|Breakthrough (Heroic)
 CHALLENGE_ZM_ASYLUM_DIFFICULTY1|Institute of Mechanical Engineering (general)
@@ -5326,7 +5326,7 @@ CHALLENGE_GET_N_THROWBACKS|Equipped with fast passive skills and throw back &&1 
 CHALLENGE_CT_WIN|The beginning of success
 CHALLENGE_DESC_CT_WIN|Win &&1 actual combat training
 CHALLENGE_CT_CALLUAV|Beacon light
-CHALLENGE_DESC_CT_CALLUAV|call &&1 time 【unmanned reconnaissance aircraft】
+CHALLENGE_DESC_CT_CALLUAV|Call in a UAV &&1 time(s)
 CHALLENGE_CT_FINISH|The first appearance of the edge
 CHALLENGE_DESC_CT_FINISH|Complete &&1 actual combat training
 CHALLENGE_CT_KILLBOT|Moving target
@@ -5728,7 +5728,7 @@ CHALLENGE_DAILY_CHALLENGE_FLY|Fly swatter
 CHALLENGE_DAILY_CHALLENGE_VANDAL|destroy the king
 CHALLENGE_DAILY_CHALLENGE_PRONE|lying position shooting
 CHALLENGE_DAILY_CHALLENGE_STREAK|Lien skills
-CHALLENGE_DAILY_CHALLENGE_COUNTER|Anti-reconnaissance aircraft
+CHALLENGE_DAILY_CHALLENGE_COUNTER|Counter-UAV
 CHALLENGE_DAILY_CHALLENGE_GHOST|Ghost
 CHALLENGE_DAILY_CHALLENGE_BLINDEYE|Detecting immunity
 CHALLENGE_DAILY_CHALLENGE_SILENCE|Ninja
@@ -5751,7 +5751,7 @@ CHALLENGE_DAILY_CHALLENGE_VICTORY_DM|For the first three
 CHALLENGE_DAILY_CHALLENGE_TEAMWORK|Teamwork
 CHALLENGE_DAILY_CHALLENGE_DEXTERITY|Dexterity
 CHALLENGE_DAILY_CHALLENGE_SD|Classic Blast victory
-CHALLENGE_DAILY_CHALLENGE_UAV|Unmanned reconnaissance aircraft
+CHALLENGE_DAILY_CHALLENGE_UAV|UAV
 CHALLENGE_DAILY_CHALLENGE_SNIPER|Sniper gun killer
 CHALLENGE_DAILY_CHALLENGE_HANDGUN|pistol killer
 CHALLENGE_DAILY_CHALLENGE_TDM_MVP|The group competition broke up
@@ -5887,7 +5887,7 @@ CHALLENGE_DAILY_CHALLENGE_FLAK_JACKET|Flak Jacket
 CHALLENGE_DESC_FLAK_JACKET|Equipped with passive skills [Flak Jacket], to withstand 1 & 1 damage from the explosion
 CHALLENGE_DAILY_CHALLENGE_HELICOPTER|Helicopters
 CHALLENGE_DAILY_CHALLENGE_SAM_TURRET|Sam
-CHALLENGE_DESC_SAM_TURRET|Use Lance Skill [Sam Anti-Aircraft Missile] &&1 time
+CHALLENGE_DESC_SAM_TURRET|Use the Sam Turret &&1 time(s)
 CHALLENGE_DAILY_CHALLENGE_TDM|Tactical competition
 CHALLENGE_DESC_TDM|Complete &&1 Tactical Team Athletics Mode Tournament
 CHALLENGE_DAILY_CHALLENGE_SURVIVAL|Survival
@@ -6021,7 +6021,7 @@ CHALLENGE_SURVIVAL_UNLIM_1_PRED_10_KILLS|Super Precision Remote Control
 CHALLENGE_SURVIVAL_UNLIM_1_PRED_10_KILLS_DESC|In Endless Survival, destroy 10 enemies with an air missile.
 CHALLENGE_SURVIVAL_UNLIM_1_PRED_15_KILLS|Destructive Remote Control
 CHALLENGE_SURVIVAL_UNLIM_1_PRED_15_KILLS_DESC|In Endless Survival, destroy 15 enemies with an air missile.
-CHALLENGE_SURVIVAL_UNLIM_PRED_KILL_HELI|Land-to-air missiles
+CHALLENGE_SURVIVAL_UNLIM_PRED_KILL_HELI|Predator missiles
 CHALLENGE_SURVIVAL_UNLIM_PRED_KILL_HELI_DESC|In Endless Survival, shoot down a helicopter with surface-to-air missiles.
 CHALLENGE_SURVIVAL_UNLIM_PRED_KILL_ROCKETEER|Toxic Poison
 CHALLENGE_SURVIVAL_UNLIM_PRED_KILL_ROCKETEER_DESC|In Endless Survival mode, destroy Bazooka enemies with open-air missiles.
@@ -6127,7 +6127,7 @@ CHALLENGE_DESC_ASYM_CONCUSS_TAKEDOWN|Kill enemies when paralyzed &&1 time
 CHALLENGE_ASYM_SKYSLAM_TAKEDOWN|Life is thinner than paper
 CHALLENGE_DESC_ASYM_SKYSLAM_TAKEDOWN|Kill enemies who are using the tremor skill &&1 time
 CHALLENGE_ASYM_JUGG_KILL|Large armor
-CHALLENGE_DESC_ASYM_JUGG_KILL|Kill Fearless Warrior &&1 time
+CHALLENGE_DESC_ASYM_JUGG_KILL|Kill Juggernaut &&1 time(s)
 CHALLENGE_ASYM_JUGG2_KILL|Large armor
 CHALLENGE_DESC_ASYM_JUGG2_KILL|kill enemy leader &&1 time
 CHALLENGE_ASYM_CAPTURE|Signal cut off
@@ -6173,11 +6173,11 @@ CHALLENGE_DESC_INFECT_RESILIENT|Survived twice by mechanical warrior still &&1 t
 CHALLENGE_INFECT_SURVIVE|Survivor
 CHALLENGE_DESC_INFECT_SURVIVE|After &&1 teammate is alienated as a mechanical warrior still remains a human warrior
 CHALLENGE_INFECT_EXTRA_PADDING|extra protection
-CHALLENGE_DESC_INFECT_EXTRA_PADDING|Gaining Fearless Warrior Spins & Skills in a Mechanical Variogram
+CHALLENGE_DESC_INFECT_EXTRA_PADDING|Gaining Juggernaut Spins & Skills in a Mechanical Variogram
 CHALLENGE_INFECT_SURVIVE_AS_LEADER|Unique
 CHALLENGE_DESC_INFECT_SURVIVE_AS_LEADER|Win as a leader &&1 game
 CHALLENGE_INFECT_NINJA_SURVIVE|There's nothing wrong with it
-CHALLENGE_DESC_INFECT_NINJA_SURVIVE|Win &&1 race as the last Survivor without morphing into a fearless warrior or leader
+CHALLENGE_DESC_INFECT_NINJA_SURVIVE|Win &&1 match as the last Survivor without morphing into a Juggernaut or leader
 CHALLENGE_INFECT_ROBOT_KILL|Shredder
 CHALLENGE_DESC_INFECT_ROBOT_KILL|Kill &&1 Mechanical Warrior
 CHALLENGE_INFECT_SPIDERBOT_KILL|Pest control
@@ -6213,7 +6213,7 @@ CHALLENGE_DESC_INFECT_STAND_OFF|Kill 10 mechanics &&1 time with human companions
 CHALLENGE_INFECT_CLOSE_CALL|Unruffled
 CHALLENGE_DESC_INFECT_CLOSE_CALL|As a human being, Mechanic Warriors walk by you &&1 time
 CHALLENGE_INFECT_NOPE|No way
-CHALLENGE_DESC_INFECT_NOPE|Become a fearless warrior or leader when attacked by a mechanic
+CHALLENGE_DESC_INFECT_NOPE|Become a Juggernaut or leader when attacked by a mechanic
 CHALLENGE_INFECT_JUNGGERNAUT_WALL|The Wall of Dreadnought
 CHALLENGE_DESC_INFECT_JUNGGERNAUT_WALL|Few Fearless Soldiers Stand Together &&1
 CHALLENGE_INFECT_KILL_HUMANS_AS_SPIDER|Spider kill
@@ -8653,7 +8653,7 @@ XBOXLIVE_LEAVEPARTYANDLOBBY|Leaving the lobby and team?
 XBOXLIVE_SIGNEDOUT|Your information has been posted
 XBOXLIVE_HOSTKICKPLAYER|Kick players apart
 XBOXLIVE_KICKPLAYER|Kick &&1?
-XBOXLIVE_LEAVEPARTYBUTTON|Leave the team
+XBOXLIVE_LEAVEPARTYBUTTON|Leave the party
 XBOXLIVE_DESTROYPARTY|Dissolution team?
 XBOXLIVE_PARTYDETAILS|Party data
 XBOXLIVE_FRIENDSLISTONX|Friends
@@ -8835,7 +8835,7 @@ SF_UI_BD_GMSG_CATEGORY_DISALLOWS_CLIENT_TYPE|Category disallows client type
 SF_UI_BD_GMSG_PAYLOAD_TOO_BIG|Sent content is too long
 SF_UI_BD_GMSG_MEMBER_POST_DISALLOWED|Member post disallowed
 SF_UI_BD_GMSG_OVERLOADED|The chat room system is very busy, please try again
-SF_UI_BD_GMSG_USER_PERCATEGORY_POST_RATE_EXCEEDED|Your delivery frequency is too high, please take a break
+SF_UI_BD_GMSG_USER_PERCATEGORY_POST_RATE_EXCEEDED|You're sending messages too fast, please slow down
 SF_UI_BD_GMSG_USER_GLOBAL_POST_RATE_EXCEEDED|Your sending frequency is too high, please take a break
 SF_UI_BD_GMSG_GROUP_POST_RATE_EXCEEDED|chat and speakers involved in the hot lead to system busy, please try again later
 SF_UI_GMSG_FAILED|Failed to send
@@ -8987,11 +8987,11 @@ SF_UI_SYS_CANCEL|Cancel
 SF_UI_SYS_DECLINE|Decline
 SF_UI_SYS_ACCEPT|Accept
 SF_UI_SYS_REFUSE|Decline
-SF_UI_SYS_IGNORE|ignored
-SF_UI_SYS_QUIT|leave
-SF_UI_SYS_STAY|leave
+SF_UI_SYS_IGNORE|Ignore
+SF_UI_SYS_QUIT|Quit
+SF_UI_SYS_STAY|Stay
 SF_UI_SYS_BLOCK|Block
-SF_UI_SYS_TIP|Prompt
+SF_UI_SYS_TIP|Tip
 SF_UI_BLACKLIST_CONFIRM|Are you sure you want to block this player? You will not receive any invitation from this player.
 SF_UI_LOADOUT_ZM|Zombie Siege
 SF_UI_LOADOUT_WLD|Wildcard
@@ -9070,7 +9070,7 @@ SF_UI_PARTY_PROMOTE_MEMBER|Handover
 SF_UI_PARTY_ACCEPT_INVITATION_CROSS_ZONE_WARNING|This invitation comes from a region with a high network delay. Do you still want to accept the invitation?
 SF_UI_ROOM_ACCEPT_INVITATION_CROSS_ZONE_WARNING|This invitation comes from a region with a high network delay. Do you still want to accept this invitation?
 SF_UI_PARTY_JOINED_CROSS_ZONE_WARNING|The team's network fluctuates and your network latency may increase. Do you want to leave the team?
-SF_UI_ROOM_JOINED_CROSS_ZONE_WARNING|The room's network fluctuates and your internet delay may increase. Would you like to leave this room?
+SF_UI_ROOM_JOINED_CROSS_ZONE_WARNING|The room's network fluctuates and your ping may increase. Would you like to leave this room?
 SF_UI_MATCH_SELECT_IN_PARTY|In Party (&&1)
 SF_UI_CLAN_DEMOTE_MEMBER|Demotion
 SF_UI_ITEM_DISMISS|Cancel
@@ -9944,7 +9944,7 @@ SF_UI_NOT_APPLICABLE|None
 SF_UI_LEADERBOARD_FILTER_NA|None
 SF_UI_FAILED_GETTING_LEADERBOARD|Failed to get leaderboard data
 SF_UI_LEADERBOARD_FILTER_ALL|Synthesis
-SF_UI_LEADERBOARD_FILTERDATE_WEEKLY|weekly
+SF_UI_LEADERBOARD_FILTERDATE_WEEKLY|Weekly
 SF_UI_LEADERBOARD_FILTERDATE_MONTHLY|Monthly
 SF_UI_LEADERBOARD_FILTER0_USER|Player
 SF_UI_LEADERBOARD_FILTER0_CLAN|Clan
@@ -11055,7 +11055,7 @@ SF_UI_DW_LIVE_CONNECTING_FAILED|[100] Unable to connect lobby service!
 SF_UI_OKAY|OK
 SF_UI_MAP_EXCLUSIVE_REWARD|Map-specific rewards
 SF_UI_EXCLUSIVE|Unique
-SF_UI_NO_CHALLENGE_PROGRESS_INFO|This mode does not support the task process and leaderboard
+SF_UI_NO_CHALLENGE_PROGRESS_INFO|This mode does not support parties
 SF_UI_START_TRAINING|Start training
 SF_UI_COOP_START_MISSION|start the task
 SF_UI_JOIN_ROOM|Join the game
@@ -11621,15 +11621,15 @@ SF_UI_PLAYERCARD_CONFIGURATION_TITLE|Customize Callsign
 SF_UI_LOADOUT_NUMBER|Class &&1
 SF_UI_BACK_WITH_ESCAPE|Back
 SF_UI_ROSTER_ITEM_COUNT|List of roles
-SF_UI_DAYS_LEFT|remaining &&1 day
-SF_UI_HOURS_LEFT|remaining &&1 hour
-SF_UI_MINUTES_LEFT|remaining &&1 minute
-SF_UI_DAY_LEFT|remaining &&1 day
-SF_UI_HOUR_LEFT|remaining &&1 hour
-SF_UI_MINUTE_LEFT|remaining &&1 minute
+SF_UI_DAYS_LEFT|Remaining: &&1 days
+SF_UI_HOURS_LEFT|Remaining: &&1 hours
+SF_UI_MINUTES_LEFT|Remaining &&1 minutes
+SF_UI_DAY_LEFT|Remaining: &&1 day
+SF_UI_HOUR_LEFT|Remaining: &&1 hour
+SF_UI_MINUTE_LEFT|Remaining: &&1 minute
 SF_UI_KILLSTREAK_SELECT_SWAP_TITLE|Change the druid skills
 SF_UI_KILLSTREAK_SELECT_SWAP_DESC|Want to change the current equipment, the anti-outing skills?
-SF_UI_LOBBY_LOADOUT_BUTTON_LABEL|edit class
+SF_UI_LOBBY_LOADOUT_BUTTON_LABEL|Edit Class
 SF_UI_ROSTER_EMPTY_SLOTS_ERROR|You have to select a full 12 characters, not available.
 SF_UI_UNLOCK_LOADOUT5_NAME|Class 5
 SF_UI_UNLOCK_LOADOUT5_DESC|Unlock and use the 5th class
@@ -11781,7 +11781,7 @@ SF_UI_GAMEMOMENT_SCENE_2|4 Kill
 SF_UI_GAMEMOMENT_SCENE_3|5 kill and above
 SF_UI_GAMEMOMENT_SCENE_4|Final kill playback
 SF_UI_GAMEMOMENT_SCENE_5|Kills the enemy
-SF_UI_GAMEMOMENT_SCENE_6|Land-to-Air Missile
+SF_UI_GAMEMOMENT_SCENE_6|Predator Missile
 SF_UI_GAMEMOMENT_SCENE_7|Flying Knife (Ax) Kills the enemy
 SF_UI_GAMEMOMENT_SCENE_8|Knife Blades Knife Kills the enemy
 SF_UI_GAMEMOMENT_SCENE_9|Melee combat
@@ -11989,7 +11989,7 @@ SF_UI_CLAIM_REWARD_FAIL|Reward failed to receive!
 SF_UI_SUPPLY_DROP_EVENT_NAME|New Year Limited Military Box
 SF_UI_SUPPLY_DROP_EVENT_DESC|Buy this special provocative action, bloom in the battlefield beautiful fireworks. At the same time receive 100XP and a New Year limited military box. Quartermaster Miss sister blessing you a Happy New Year soldiers!
 SF_UI_NO_RECENT_CHALLENGES|There is no challenge progress
-SF_UI_CAREER_UNLOCKS_LABEL|&&1 Level 1 Reward & Unlock
+SF_UI_CAREER_UNLOCKS_LABEL|Level &&1 Rewards & Unlocks
 SF_UI_CAREER_PERFORMANCE|Combat Data
 SF_UI_CHARACTERLOADOUT_COMBATKNIFE|Combat dagger
 SF_UI_RANDOM_REWARDS_SAMPLE|random bonus sample
@@ -12634,7 +12634,7 @@ UI_TUTORIAL_UI_TOUR_TOOL_TIP_GEAR_DESC|Make your character glorious or fit perfe
 UI_TUTORIAL_UI_TOUR_TOOL_TIP_EDIT_PERKS_TITLE|Passive Skills
 UI_TUTORIAL_UI_TOUR_TOOL_TIP_EDIT_PERKS_DESC|Carrying passive skills into the battlefield can improve your combat ability. You can prevent yourself from being discovered by enemies, or sprint longer distances or immune to tactical equipment.
 UI_TUTORIAL_UI_TOUR_TOOL_TIP_STREAKS_TITLE|Killstreak
-UI_TUTORIAL_UI_TOUR_TOOL_TIP_STREAKS_DESC|The dungeon skills you gain by achieving a dungeon will provide you tactical support and firepower advantages. Whether you are shooting as a helicopter shooter to sweep the battlefield or unmanned reconnaissance aircraft to the enemy's position, you will be able to find the most suitable choice.
+UI_TUTORIAL_UI_TOUR_TOOL_TIP_STREAKS_DESC|The dungeon skills you gain by achieving a dungeon will provide you tactical support and firepower advantages. Whether you are shooting as a helicopter shooter to sweep the battlefield or UAV to the enemy's position, you will be able to find the most suitable choice.
 UI_TUTORIAL_UI_TOUR_TOOL_TIP_REQUIS_TITLE|Props
 UI_TUTORIAL_UI_TOUR_TOOL_TIP_REQUIS_DESC|Bonus cards allow you to get extra rewards from the tournament. Consumables add special effects during the race or chat as they become active.
 UI_TUTORIAL_ONBOARDING_INTRO_TITLE|Welcome!
@@ -12716,16 +12716,16 @@ UI_MARKET_EHP|Elite Honor
 UI_MARKET_HP_TIP|Honor (earned through All-People qualifying session)
 UI_MARKET_EHP_TIP|Elite Honor (Qualified by Elite Champion)
 UI_MARKET_TOTAL|Total:
-UI_MARKET_SALE|Promotion
+UI_MARKET_SALE|Sale:
 UI_MARKET_SOLD|Sold:
 UI_MARKET_FEATURED|Latest Deals
-UI_MARKET_PURCHASE_OPTIONS|How to buy
+UI_MARKET_PURCHASE_OPTIONS|Purchase options
 UI_MARKET_ITEM_QUANTITY|Already have: &&1
-UI_MARKET_TIER_LABEL_COMMON|Normal
-UI_MARKET_TIER_LABEL_UNCOMMON|excellent
+UI_MARKET_TIER_LABEL_COMMON|Common
+UI_MARKET_TIER_LABEL_UNCOMMON|Uncommon
 UI_MARKET_TIER_LABEL_RARE|Rare
 UI_MARKET_TIER_LABEL_EPIC|Epic
-UI_MARKET_TIER_LABEL_LEGENDARY|Legend
+UI_MARKET_TIER_LABEL_LEGENDARY|Legendary
 UI_MARKET_SHOP_DISCOUNT_LABEL|off
 UI_MARKET_REPLENISH|Recharge
 UI_MARKET_ITEM_PVP|PVP
@@ -12818,8 +12818,8 @@ UI_MARKET_ITEM_MENU_SUPPLY_DROPS|Firebox
 UI_MARKET_SUPPLY_DROP_PURCHASE_HEADER|Buying Arms Pack
 UI_MARKET_SUPPLY_DROP_PURCHASE_DESCRIPTION|Use your hardworking CPs and GPs to buy a firebox. When you open a firebox, you will get 3 different levels of items.
 UI_MARKET_UNOPENED_SUPPLY_DROPS|Unopened firebox
-UI_MARKET_SUPPLY_DROP_BASIC|standard
-UI_MARKET_SUPPLY_DROP_ADVANCED|advanced
+UI_MARKET_SUPPLY_DROP_BASIC|Standard
+UI_MARKET_SUPPLY_DROP_ADVANCED|Advanced
 UI_MARKET_SUPPLY_DROP_POSSIBLE_REWARDS|Possible rewards
 UI_MARKET_SUPPLY_DROP_SELECTION_INSTRUCTIONS|Select a munition to open
 UI_MARKET_OPEN_SUPPLY_DROP_INSTRUCTIONS|Choose three arms to turn on your booty.
@@ -12916,7 +12916,7 @@ UI_MARKET_LATEST_SUPPLY_DROP_REWARD|new items added
 UI_MARKET_OTHER|Other
 UI_MARKET_FREE|Free
 UI_MARKET_USE|use
-UI_MARKET_KIS_STANDARD|standard
+UI_MARKET_KIS_STANDARD|Standard
 UI_MARKET_KIS_PRO|Elite
 UI_MARKET_ITEM_MENU_PCN|Nickname color
 UI_MARKET_WARGOD_TIER_J1|Reserves
@@ -12945,12 +12945,12 @@ UI_MOTD_NOTIFICATIONS_CATEGORY_ACTIVITY|Activities
 UI_MOTD_NOTIFICATIONS_CATEGORY_EVENTS|Events
 UI_MOTD_NOTIFICATIONS_CATEGORY_ANNOUNCEMENT|Notice
 UI_MOTD_NOTIFICATIONS_CATEGORY_OBJECTIVE|Tasks
-UI_MOTD_CHECKIN_REWARDS_TITLE|Monthly
+UI_MOTD_CHECKIN_REWARDS_TITLE|Dailies
 UI_MOTD_CHECKIN_REWARDS_PENDING_TITLE|Cumulative login for full rewards!
 UI_MOTD_CHECKIN_REWARDS_COMPLETE_TITLE|Complete rewards complete!
-UI_MOTD_LABEL_DAYS|day
-UI_MOTD_LABEL_HOURS|hours
-UI_MOTD_LABEL_MINUTES|minutes
+UI_MOTD_LABEL_DAYS|Days
+UI_MOTD_LABEL_HOURS|Hours
+UI_MOTD_LABEL_MINUTES|Minutes
 UI_MOTD_FEATURE_ANNOUNCEMENT|Content Announcement
 UI_MOTD_TIME_REMAINING_BEFORE_ITEMS_EXPIRE|Reward Item Refresh Time:
 UI_MOTD_NOTIFICATION_SENDER_TENCENT_GAMES|Tencent Games
@@ -13500,7 +13500,7 @@ SF_WEAPON_GL_NAME|Grenade launcher
 SF_WEAPON_GL_DESC|Single grenade launcher, barrel attachment.
 SF_WEAPON_RED_SWAT1_NAME|Red Dot Sight
 SF_WEAPON_RED_SWAT1_DESC|The center of the mirror is a bright red dot for quick and easy aiming.
-SF_WEAPON_MASTERKEY_NAME|Shotgun converter
+SF_WEAPON_MASTERKEY_NAME|Masterkey
 SF_WEAPON_MASTERKEY_DESC|Barrel accessories to convert existing firearms into shotguns.
 SF_WEAPON_M16_MP_NAME|M16A4
 SF_WEAPON_M16_MP_DESC|Assault rifle developed from legendary M16, this model uses 3-point shoot mode.
@@ -13588,11 +13588,11 @@ SF_WEAPON_M79_MP_NAME|M79 "Smasher"
 SF_WEAPON_M79_MP_DESC|Manually loaded grenade launcher, to fill the gap between the grenade and mortar firepower, but pay attention to its curved trajectory and minimum initiation distance.
 SF_WEAPON_FLECHETTE_NAME|Arrow bomb
 SF_WEAPON_FLECHETTE_DESC|Increases the range of a partial shotgun
-SF_WEAPON_RED_RMR_NAME|ORS red dot mirror
+SF_WEAPON_RED_RMR_NAME|Red Dot Sight
 SF_WEAPON_RED_RMR_DESC|enhanced reflective optical sight, the inner point is red. After assembly helps to accurately target. Streamlined shape to make it have a broader perspective.
-SF_WEAPON_ACO_TA31_NAME|COS Mirrors
+SF_WEAPON_ACO_TA31_NAME|ACOG Sight
 SF_WEAPON_ACO_TA31_DESC|Advanced Combat Optical Sight, 4x Magnification
-SF_WEAPON_THE_FIXSMALL_NAME|Small thermal imaging scope
+SF_WEAPON_THE_FIXSMALL_NAME|Thermal Scope
 SF_WEAPON_THE_FIXSMALL_DESC|4x Fixed Magnification Thermal Sight for Rifles, Submachine and Light Machine Guns
 SF_WEAPON_THE_VARIABLE_NAME|Variable magnification thermal imaging scope
 SF_WEAPON_THE_VARIABLE_DESC|Adjustable thermal imaging sight, adjustable magnification 6x, 10x, sniper rifle special
@@ -13604,33 +13604,33 @@ SF_WEAPON_SCO_MID_NAME|Mid-range telephoto snapshots
 SF_WEAPON_SCO_MID_DESC|x6 magnification quick sight, combat rifle can be assembled
 SF_WEAPON_THE_FIXLARGE_NAME|Large thermal imaging scope
 SF_WEAPON_THE_FIXLARGE_DESC|6x Fixed Magnification Thermal Sight, Sniper Rifle
-SF_WEAPON_RED_REFLEX_NAME|Reflective red dot mirror
+SF_WEAPON_RED_REFLEX_NAME|Reflex Sight
 SF_WEAPON_RED_REFLEX_DESC|Reflective optical sight, the inner point is red. After assembly helps to target accurately
-SF_WEAPON_EOT_EXPS_NAME|holographic mirror
+SF_WEAPON_EOT_EXPS_NAME|Holographic Sight
 SF_WEAPON_EOT_EXPS_DESC|A compact holographic sight with red dots inside. After assembly helps to accurately aim, improve the aiming accuracy when the muzzle is shaking
 SF_WEAPON_RED_PST_NAME|Pistol red dot mirror
 SF_WEAPON_RED_PST_DESC|Small red dot sight suitable for pistols
 SF_WEAPON_M4A1TECH_MP_NAME|M4A1 Tech Collector's Edition
 SF_WEAPON_M4A1TECH_MP_DESC|Significantly improved by the M4A1, retaining the A1 under the receiver, the piston system with an advanced upper receiver package, the degree of modularity and man-machine functions have improved. Collector's Edition with 3 accessory slots.
-SF_WEAPON_MUZBREAK_NAME|Flame suppressor
+SF_WEAPON_MUZBREAK_NAME|Muzzle Break
 SF_WEAPON_MUZBREAK_DESC|The flame arrester reduces muzzle flame characteristics and increases the effective range of the weapon.
 SF_WEAPON_SILENCER_NAME|Silencer
 SF_WEAPON_SILENCER_DESC|Avoid mufflers detected by enemy radar at gunfire, but reduce the range of the bullet.
 SF_WEAPON_SSILENCER_DESC|Will not be detected by the enemy radar after shooting, and reduce the firing sound.
 SF_WEAPON_VSILENCER_NAME|Sand Silencer
 SF_WEAPON_VSILENCER_DESC|Sand painted special muffler, will not be detected by the enemy's radar after the fire, will also reduce the sound of the gun.
-SF_WEAPON_FMJ_NAME|Metal is a shell
+SF_WEAPON_FMJ_NAME|Full Metal Jacket
 SF_WEAPON_FMJ_DESC|Bullets have a stronger penetration, increased damage to the vehicle.
-SF_WEAPON_MAG_FAST_NAME|Quick Magazine
+SF_WEAPON_MAG_FAST_NAME|Fast Mags
 SF_WEAPON_MAG_FAST_DESC|improve the speed of change
 SF_WEAPON_GLOWSIGHT_NAME|self-luminous mechanical sight
 SF_WEAPON_GLOWSIGHT_DESC|Mechanical sight with tritium tube.
-SF_WEAPON_AFGRIP_NAME|front handle
+SF_WEAPON_AFGRIP_NAME|Angled Grip
 SF_WEAPON_AFGRIP_DESC|Slightly improves portability and firing accuracy, improving stability of accurate aiming at moving conditions.
 SF_WEAPON_GRE_GP30HE_NAME|Grenade launcher
 SF_WEAPON_GRE_GP30HE_DESC|Single grenade launcher, barrel attachment.
 SF_WEAPON_BIPOD_DESC|Dwell time doubles.
-SF_WEAPON_LASER_NAME|Laser pointer
+SF_WEAPON_LASER_NAME|Laser Sight
 SF_WEAPON_LASER_DESC|Auxiliary sighting device. Improves aiming accuracy at inaccurate aiming conditions.
 SF_WEAPON_CAM_M4A1GREEN_NAME|Jungle Camo
 SF_WEAPON_CAM_M4A1GREEN_DESC|Jungle camouflage, the effect of the jungle terrain significantly
@@ -13702,7 +13702,7 @@ SF_WEAPON_CAM_GOLD_NAME|Shine Gold
 SF_WEAPON_CAM_GOLD_DESC|Golden Camo, a symbol of the ultimate weapon specialization
 SF_WEAPON_LAS_SMALL_NAME|Small laser pointer
 SF_WEAPON_LAS_SMALL_DESC|Auxiliary sighting device. Aiming accuracy when inaccurate aiming.
-SF_WEAPON_FOREGRIP_NAME|front grip
+SF_WEAPON_FOREGRIP_NAME|Foregrip
 SF_WEAPON_FOREGRIP_DESC|Barrel attachment, front grip increases weapon stability and accuracy.
 SF_WEAPON_BIPODGRIP_NAME|Two-pole grip
 SF_WEAPON_AS50_MP_NAME|Arctic .50 Collector's Edition
@@ -13774,10 +13774,10 @@ SF_WEAPON_RET_LOL_NAME|Oh
 SF_WEAPON_RET_LOL_DESC|Oh
 SF_WEAPON_EXTMAG_DESC|Expansion of magazine capacity, and increase carrying capacity.
 SF_WEAPON_CROSSEXTMAG_DESC|increase carrying capacity.
-SF_WEAPON_EXTMAG_NAME|Expansion magazine
-SF_WEAPON_STALKER_NAME|Tactical butt
+SF_WEAPON_EXTMAG_NAME|Extended Mags
+SF_WEAPON_STALKER_NAME|Adjustable Stock
 SF_WEAPON_STALKER_DESC|Increases the speed of movement at precise aiming.
-SF_WEAPON_QUICKDRAW_NAME|Snapshot grip
+SF_WEAPON_QUICKDRAW_NAME|Quickdraw Handle
 SF_WEAPON_QUICKDRAW_DESC|Speed ​​up accurate aiming.
 SF_WEAPON_AK47T2_MP_NAME|AK-47 May
 SF_WEAPON_AK47T2_MP_DESC|A generation gun AK-47 assault rifle, has a high lethality, but requires some skill to control. Custom Edition comes with plum skin.
@@ -13928,8 +13928,8 @@ SF_WEAPON_CAM_NETCAFE02_NAME|This item has been disabled
 SF_WEAPON_CAM_NETCAFE02_DESC|F_WEAPON_CAM_NETCAFE02_DESC:
 SF_WEAPON_CAM_KAWAII_NAME|Kawaii camouflage
 SF_WEAPON_CAM_KAWAII_DESC|Kawaii camouflage
-SF_WEAPON_MG4JUGGERNAUT_MP_NAME|MAG43 fearless warrior
-SF_WEAPON_MG4JUGGERNAUT_MP_DESC|I am a fearless warrior
+SF_WEAPON_MG4JUGGERNAUT_MP_NAME|MAG43 Juggernaut
+SF_WEAPON_MG4JUGGERNAUT_MP_DESC|I am a Juggernaut
 SF_WEAPON_AN94_MP_NAME|AN94
 SF_WEAPON_AN94_MP_DESC|Like AK, trustworthy and accurate, especially for long-range combat.
 SF_WEAPON_G36C_MP_NAME|G37H
@@ -15520,12 +15520,12 @@ FO_ACT_PICKUPWPN|Pick up a weapon
 FO_HINT_PICKUPWPN|Press ^2 [{+activate}] ^7 to pick up the weapon
 FO_ACT_PICKUPAMMO|Pick up ammunition &&1 time
 FO_HINT_PICKUPAMMO|Walked through the dropped weapon
-FO_ACT_UAVEARN|Acquire 【Unmanned Reconnaissance】
+FO_ACT_UAVEARN|Acquire 【UAV】
 FO_HINT_UAVEARN|Destroy 3 enemies in succession
 FO_ACT_GRENADEUSE|Throwing grenades
-FO_ACT_UAVUSE|Use 【Unmanned Reconnaissance】
+FO_ACT_UAVUSE|Use 【UAV】
 FO_HINT_UAVUSE|Press ^2 [{+actionslot 2}] ^7 Enable drones
-FO_ACT_UAVSHOOT|shot down a [unmanned reconnaissance aircraft]
+FO_ACT_UAVSHOOT|Shot down a [UAV]
 FO_HINT_UAVSHOOT|Uses any weapon and looks up at the UAV
 FO_ACT_SPRINT|Sprint one kilometer
 FO_HINT_SPRINT|Hold ^2 [{+breath_sprint}] ^7 Sprint
@@ -15569,7 +15569,7 @@ FO_ACT_GRENADETHROW|Throwing grenades
 FO_KILL_ANY|destroy &&1 enemy
 FO_HINT_GMUSE|Press ^2 [{+actionslot 3}] ^7 to launch a ground-to-air missile
 FO_ACT_GMUSE|Use an air missile
-FO_ACT_UAVFUNC|use 【unmanned reconnaissance aircraft】
+FO_ACT_UAVFUNC|Use an 【UAV】
 FO_ACT_GMFUNC|Use 【Land to Air Missile】
 FO_CHALLENGE_REWARD|Reward <font color = '# 338ECC'> {0} </ font>
 FO_CHALLENGE_SUMMARY_GP|<font color = '# 338ECC'> {0} </ font> GP
@@ -15655,7 +15655,7 @@ VIDSUBTITLES_SPOV_FAVELA_OUTRO_08|^2 Price: ^7 Ortiz did not move too much, but 
 VIDSUBTITLES_SPOV_FAVELA_OUTRO_09|^2 Price: ^7 The town is not far from your location, Vazquez is hiding here.
 VIDSUBTITLES_SPOV_FAVELA_OUTRO_10|^2 Price: ^7 We need you to sneak into his office to gather intelligence about his current location.
 VIDSUBTITLES_SPOV_CRASH_01|^2 Price: ^7 Vazquez used Audran as his temporary base of operations.
-VIDSUBTITLES_SPOV_CRASH_02|^2 Price: ^7 Unmanned reconnaissance aircraft will provide you with aerial surveillance.
+VIDSUBTITLES_SPOV_CRASH_02|^2 Price: ^7 UAV will provide you with aerial surveillance.
 VIDSUBTITLES_SPOV_CRASH_03|^2 Price: ^7 Sneak into the town to Vazquez's office.
 VIDSUBTITLES_SPOV_CRASH_04|^2 Price: ^7 Find out the intelligence and find out his recent position and movement.
 VIDSUBTITLES_SPOV_ESTATE_INTRO_01|^2 Price: ^7 Vasquez previously worked with Cottes to remove unknown items from the country.
@@ -15939,7 +15939,7 @@ SENTRY_MOVE|Hold ^2 &&1 ^7 to move the turret
 SENTRY_PLACE|Press ^2 [{+attack}] ^7 to place the turret
 SENTRY_CANNOT_PLACE|Move the turret to a valid location
 SENTRY_PICKUP_TURRET|Hold ^2 &&1 ^7 to pick up the turret
-SENTRY_PICKUP_SAM_TURRET|hold ^2 &&1 ^7 pick up [Sam anti-aircraft missiles]
+SENTRY_PICKUP_SAM_TURRET|Hold ^2 &&1 ^7 pick up [Sam Turret]
 ELEVATOR_CALL_HINT|Hold &&1 to call the elevator
 ELEVATOR_USE_HINT|Hold &&1 to use the elevator
 ELEVATOR_FLOOR_SELECT_HINT|Hold &&1 to select the floor
@@ -16030,7 +16030,7 @@ QUICKMESSAGE_NEED_GEAR|I need equipment
 QUICKMESSAGE_TARGET_SPOTTED|Found a target
 QUICKMESSAGE_D_TARGET|^2 [d] ^7 Found the target
 HELLFIRE_USE_DRONE|Press ^2 [{+actionslot 4}] ^7 to control the Predator UAV
-HELLFIRE_USE_KILLSTREAK_DRONE|Press ^2 7 ^7 to control [Land-to-Air Missile]
+HELLFIRE_USE_KILLSTREAK_DRONE|Press ^2 7 ^7 to control [Predator Missile]
 HELLFIRE_DRONE_VIEW|Lens: UAV_DRONE_011
 HELLFIRE_DESTROYED|Predator drones have been destroyed
 HELLFIRE_RELOADING_WITH_TIME|Missile Loading:
@@ -22020,10 +22020,10 @@ GAMEMODE_SUMMARY_POPUP_ASYM_SPIDERBOT_LOADOUT_TITLE|Ground Spider Model Selectio
 GAMEMODE_SUMMARY_POPUP_ASYM_SPIDERBOT_LOADOUT_DESCRIPTION|Ground spiders can teleport, explode, and distort. Spiders have less blood than other mechanized warriors, but spiders move faster and can more easily escape human attacks.
 GAMEMODE_SUMMARY_POPUP_ASYM_ROBOT_UI_LOADOUT_TITLE|Mechanic Warrior
 GAMEMODE_SUMMARY_POPUP_ASYM_ROBOT_UI_LOADOUT_DESCRIPTION|Each mechanic has 3 skills that players gain when upgrading a mechanic's corps during the game. Machine warrior level by the bottom right corner of the blue progress bar display. Each upgrade will unlock a skill, after each skill has been used for some time to re-use. Will still be restored to the skills will be displayed in red, and other skills to resume can be used, it will turn green.
-GAMEMODE_SUMMARY_POPUP_ASYM_JUGG_TITLE|Fearless warrior
+GAMEMODE_SUMMARY_POPUP_ASYM_JUGG_TITLE|Juggernaut
 GAMEMODE_SUMMARY_POPUP_ASYM_JUGG_DESCRIPTION|Human warriors can kill even 4 enemies to transform their fearless fighters, use light machine guns, and have more blood and armor.
-GAMEMODE_SUMMARY_POPUP_ASYM_JUGG_1ST_PERSON_TITLE|First Class Fearless Warrior
-GAMEMODE_SUMMARY_POPUP_ASYM_JUGG_1ST_PERSON_DESCRIPTION|Transfiguration fearless warrior, if you complete the six even kill, you can once again turned into a leader.
+GAMEMODE_SUMMARY_POPUP_ASYM_JUGG_1ST_PERSON_TITLE|First Class Juggernaut
+GAMEMODE_SUMMARY_POPUP_ASYM_JUGG_1ST_PERSON_DESCRIPTION|Transfiguration Juggernaut, if you complete the six even kill, you can once again turned into a leader.
 GAMEMODE_SUMMARY_POPUP_ASYM_ULTRA_JUGG_TITLE|Boss
 GAMEMODE_SUMMARY_POPUP_ASYM_ULTRA_JUGG_DESCRIPTION|The leader uses the invincible Gatling machine gun.
 GAMEMODE_SUMMARY_POPUP_ASYM_SCORING_TITLE|Game Preview
@@ -22464,7 +22464,7 @@ SPECIAL_OPS_SO_CHARLIE_UNLOCK_NOTICE|Charlie task to unlock!
 SPECIAL_OPS_SO_DELTA_UNLOCK_NOTICE|Delta task to unlock!
 SPECIAL_OPS_SO_ECHO_UNLOCK_NOTICE|Echo mission to unlock!
 SPECIAL_OPS_SO_SELECT_AC130_GUNNER|Select "gunboat" gunner
-SPECIAL_OPS_SO_SELECT_CHOPPER_GUNNER|Choose a helicopter shooter
+SPECIAL_OPS_SO_SELECT_CHOPPER_GUNNER|Choose chopper gunner
 SPECIAL_OPS_DASHDASH|-
 SPECIAL_OPS_HOSTILES|remaining enemies:
 SPECIAL_OPS_SO_KILLSPREE_FAVELA_OBJ_DESC|30 enemies, civilian casualties cap up to 6 people.
@@ -22947,3 +22947,72 @@ ZOMBIE_RANDOM_WEAPON_950|Press ^2 &&1 ^7 for a random weapon [Price: ##1]
 勇者游戏双人模式。在废弃的未来城市18区中，和队友一起，克服多变的自然环境，收集武器装备，淘汰其他选手，成为最强队伍！|Battle Royale duo mode. In the abandoned future city 18 districts, together with teammates, to overcome the changing natural environment, collecting weapons and equipment, out of other players, to become the strongest team!
 勇者游戏单人模式。在废弃的未来城市18区中，克服多变的自然环境，收集武器装备，淘汰其他选手，成为最强勇者！|Battle Royale solo mode. 18 in the abandoned city in the future, to overcome the changing natural environment, collecting weapons and equipment, eliminated other players, to become the strongest survivor!
 勇者游戏极限双人模式。18区的战场环境变得更加残酷（无小地图、无安全区提示等）。和队友一起，克服环境影响，收集武器装备，淘汰其他选手，成为最强队伍！|Battle Royale extreme duo mode. The battlefield environment in the 18th district has become more brutal (no small maps, no safe area tips, etc.). Together with teammates, overcome environmental influences, collect weapons and equipment, eliminate other players, and become the strongest team!
+// Kllstreaks
+反侦察机|Counter-UAV
+卫星监控|Orbital VSAT
+无畏战士|Juggernaut
+重型直升机|Pave Low
+空中炮艇|AC-130
+无人侦察机|UAV
+空地导弹|Predator Missile
+攻击直升机|Attack Helicopter
+军犬|Attack Dogs
+迫击炮小队|Mortar Squad
+空投补给箱|Care Package
+萨姆防空导弹|SAM Turret
+哨戒机枪|Sentry Gun
+炸弹小飞机|Hunter Killer
+直升机射手|Chopper Gunner
+// Killstreak descs
+killstreaks_helicopter_minigun_desc|Be the gunner of an attack helicopter. Requires a killstreak of 8.
+killstreaks_missile_drone_desc|Infantry deployed drone that seeks out an enemy target or vehicle. Requires a killstreak of 4.
+killstreaks_airdrop_sentry_desc|Airdrop a placeable Sentry Gun. Requires a killstreak of 5.
+killstreaks_sam_turret_desc|Airdrop a placeable SAM Turret that destroys aircraft. Requires a killstreak of 4.
+killstreaks_airdrop_desc|Airdrop a random killstreak or ammo. Requires a killstreak of 5.
+killstreaks_counter_uav_desc|Temporarily disables enemy radar. Requires a killstreak of 4.
+killstreaks_mortar_desc|Target three locations to bombard with Mortar Strikes. Requires a killstreak of 6.
+killstreaks_sr71_desc|Shows both enemy position and direction on the mini-map. Cannot be shot down. Requires a killstreak of 8.
+killstreaks_juggernaut_desc|Receive advanced armor via carepackage. Requires a killstreak of 11.
+killstreaks_pavelow_desc|Heavily armored assault helicopter. Requires a killstreak of 9.
+killstreaks_dogs_desc|Attack dogs that hunt the enemy down. Requires a killstreak of 10.
+killstreaks_ac130_desc|Be the gunner of an AC130. Requires a killstreak of 12.
+killstreaks_helicopter_desc|Call in a support helicopter. Requires a killstreak of 7.
+killstreaks_predator_missile_desc|Remote control missile. Requires a killstreak of 5.
+killstreaks_uav_desc|Shows enemies on the minimap. Requires a killstreak of 3.
+// Attachments
+反射型红点镜|Reflex Sight
+sf_weapon_red_reflex_desc|REVISE
+消音器|Silencer
+sf_weapon_silencer_desc|REVISE
+前握把|Foregrip
+sf_weapon_foregrip_desc|REVISE
+快瞄握把|Quickdraw
+sf_weapon_quickdraw_desc|REVISE
+心跳感应器|Heartbeat Sensor
+sf_weapon_sra_hbs_desc|REVISE
+COS瞄镜|ACOG Sight
+sf_weapon_aco_ta31_desc|REVISE
+榴弹发射器|Grenade Launcher
+sf_weapon_gl_desc|REVISE
+战术枪托|Adjustable Stock
+sf_weapon_stalker_desc|REVISE
+消焰器|Muzzle Brake
+sf_weapon_muzbreak_desc|REVISE
+扩容弹匣|Extended Mags
+sf_weapon_extmag_desc|REVISE
+霰弹枪转换器|Masterkey
+sf_weapon_masterkey_desc|REVISE
+前冲握把|Angled Grip
+sf_weapon_afgrip_desc|REVISE
+金属被甲弹|FMJ
+sf_weapon_fmj_desc|REVISE
+全息镜|Holographic Sight
+sf_weapon_eot_exps_desc|REVISE
+激光指示器|Laser Sight
+sf_weapon_laser_desc|REVISE
+小型热成像瞄镜|Thermal Scope
+sf_weapon_the_fixsmall_desc|REVISE
+ORS红点镜|Red Dot Sight
+sf_weapon_red_rmr_desc|REVISE
+快速弹匣|Fast Mags
+sf_weapon_mag_fast_desc|REVISE
