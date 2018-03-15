@@ -11,6 +11,7 @@ Translations for COD:OL, requires ProjectD3code.
 
 ## Installation
 - Download both ProjectD3code and a translation db above.
+- Close the game, `WeGame`, `TenProtect`, `TQMWatcher` before proceeding
 - Rename the translation file to `TranslationsDB.db`
 - Copy `d3d9.dll` and the database next to the `codoMP_client_shipRetail.exe` application
 - Launch the game
