@@ -229,13 +229,13 @@ DWORD WINAPI DecodeInitialize(LPVOID lpParam)
 	// Ensure that we are the main game
 	if (Utils::HasEnding(ApplicationModule.GetModulePath(), "codomp_client_shipretail.exe"))
 	{
-		// Load translation database
-		DecodeLoadTranslations(ApplicationModule);
-
 		// Setup logger
 #if LOGGER_MODE
 		LoggerHandle = fopen("C:\\decodelog.txt", "w");
 #endif
+
+		// Load translation database
+		DecodeLoadTranslations(ApplicationModule);
 
 		// We must prepare the module, but, apply patches after the window loads (Unpacked)
 		while (FindWindow(L"CODO", NULL) == NULL) Sleep(1);
