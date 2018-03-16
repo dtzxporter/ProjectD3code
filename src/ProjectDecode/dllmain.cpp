@@ -1,9 +1,8 @@
 // Standard includes
 #include <Windows.h>
 
-// Classes we need
 #include "d3d9.h"
-#include "valk.h"
+#include "decode.h"
 
 // Original function addresses
 Direct3DShaderValidatorCreate9Proc m_pDirect3DShaderValidatorCreate9;
@@ -54,16 +53,11 @@ BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 		m_pDirect3DCreate9Ex = (Direct3DCreate9ExProc)GetProcAddress(d3d9dll, "Direct3DCreate9Ex");
 
 		// Spawn our worker thread
-		{
-			int NullParam = 0;
-			CreateThread(NULL, 0, ValkyrieInitialize, &NullParam, 0, NULL);
-		}
+		CreateThread(NULL, 0, DecodeInitialize, NULL, 0, NULL);
 		break;
 	case DLL_PROCESS_DETACH:
-		// Unload original module
-		FreeLibrary(d3d9dll);
-		// Shutdown valkyrie
-		ValkyrieShutdown();
+		// Unload and shutdown
+		FreeLibrary(d3d9dll); DecodeShutdown();
 		break;
 	}
 

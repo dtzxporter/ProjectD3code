@@ -7,45 +7,6 @@
 // The class we are implementing
 #include "utils.h"
 
-Utils::MainModuleInfo::MainModuleInfo() : BaseAddress(0), EndAddress(0)
-{
-	// Make sure we didn't load
-	if (BaseAddress) { return; }
-
-	// Get main module
-	auto MainModule = (HMODULE)GetModuleHandle(NULL);
-
-	// Set base
-	BaseAddress = (uintptr_t)(MainModule);
-
-	// Read PE headers
-	auto dosHeader = (const IMAGE_DOS_HEADER*)(MainModule);
-	auto ntHeader = (const IMAGE_NT_HEADERS64*)((const uint8_t*)(dosHeader)+dosHeader->e_lfanew);
-
-	// Calculate end address
-	EndAddress = BaseAddress + ntHeader->OptionalHeader.SizeOfCode;
-}
-
-uint8_t* Utils::DetourVirtualFunction(uint8_t* Target, uint8_t* Replacement, uint32_t TableIndex)
-{
-	// If we are starting at the top of the table...
-	uint8_t* VirtualTableOffset = (Target + (TableIndex * sizeof(uintptr_t)));
-
-	// Prepare to protect the segment
-	DWORD dwOld = NULL;
-	// Unprotect it
-	if (!VirtualProtect(VirtualTableOffset, sizeof(uintptr_t), PAGE_EXECUTE_READWRITE, &dwOld)) { return nullptr; }
-
-	// Safely swap the pointers
-	auto Original = (uint8_t*)InterlockedExchange64((volatile LONG64*)VirtualTableOffset, (LONG64)Replacement);
-
-	// Restore protection
-	VirtualProtect(VirtualTableOffset, sizeof(uintptr_t), dwOld, &dwOld);
-
-	// Return the original call
-	return Original;
-}
-
 // Constant platform specific variables
 static const char DirectorySeparatorChar = '\\';
 static const char AltDirectorySeparatorChar = '/';
@@ -237,31 +198,20 @@ bool Utils::HasEnding(const std::string& fullString, const std::string& ending)
 	return false;
 }
 
-void Utils::PatchMemory(ULONG_PTR Address, PBYTE Data, SIZE_T Size)
-{
-	DWORD d = 0;
-	VirtualProtect((LPVOID)Address, Size, PAGE_EXECUTE_READWRITE, &d);
-
-	for (SIZE_T i = 0; i < Size; i++)
-		*(volatile BYTE *)(Address + i) = *Data++;
-
-	VirtualProtect((LPVOID)Address, Size, d, &d);
-
-	FlushInstructionCache(GetCurrentProcess(), (LPVOID)Address, Size);
-}
-
-std::wstring Utils::s2ws(const std::string& str)
+std::wstring Utils::StringToWideString(const std::string& str)
 {
 	using convert_typeX = std::codecvt_utf8<wchar_t>;
 	std::wstring_convert<convert_typeX, wchar_t> converterX;
 
+	// Convert from raw bytes
 	return converterX.from_bytes(str);
 }
 
-std::string Utils::ws2s(const std::wstring& wstr)
+std::string Utils::WideStringToString(const std::wstring& wstr)
 {
 	using convert_typeX = std::codecvt_utf8<wchar_t>;
 	std::wstring_convert<convert_typeX, wchar_t> converterX;
 
+	// Convert from raw bytes
 	return converterX.to_bytes(wstr);
 }
