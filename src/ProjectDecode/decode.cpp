@@ -138,7 +138,7 @@ void DecodeLoadTranslations(MainModule& AppModule)
 
 			// Log entries loaded
 #if LOGGER_MODE
-			fprintf(LoggerHandle, "Loaded: %d translation entries\n", Entries);
+			printf("Loaded: %d translation entries\n", Entries);
 #endif
 		}
 
@@ -148,7 +148,7 @@ void DecodeLoadTranslations(MainModule& AppModule)
 	{
 		// Log failure to find database
 #if LOGGER_MODE
-		fprintf(LoggerHandle, "No database file found...\n");
+		printf("No database file found...\n");
 #endif
 	}
 }
@@ -156,28 +156,27 @@ void DecodeLoadTranslations(MainModule& AppModule)
 void DecodeApplyPatches(MainModule& AppModule)
 {
 	// We must apply the hooks here, only after the patterns are found
-	auto SEHTranslate = FindPattern("55 8B EC 83 E4 ?? 51 A1 ?? ?? ?? ?? 56 85 C0", AppModule.GetBaseAddress(), AppModule.GetCodeSize());
+	auto SEHTranslate = FindPattern("55 8B EC 83 E4 ? A1 ? ? ? ? 56 57 85 C0", AppModule.GetBaseAddress(), AppModule.GetCodeSize());
 	auto ScaleformTranslate = FindPattern("8B 50 ?? 33 F6 56 6A ?? FF D2 3B C6 74", AppModule.GetBaseAddress(), AppModule.GetCodeSize());
+	auto DBFindFAssetHeaderFunc = FindPattern("55 8B EC 83 E4 ? 83 EC ? 53 56 57 C7 44 24 ? ? ? ? ? 80 3D ? ? ? ? ?", AppModule.GetBaseAddress(), AppModule.GetCodeSize());
+	auto SEGetStringFunc = FindPattern("55 8B EC 83 EC ? 53 56 BE ? ? ? ? 2B CE", AppModule.GetBaseAddress(), AppModule.GetCodeSize());
+	auto ScaleformTranslateSetInfo = FindPattern("55 8B EC 8B 45 ? 56 8B F1 85 C0 74 ? 53", AppModule.GetBaseAddress(), AppModule.GetCodeSize());
 
 	// Log initial patterns
 #if LOGGER_MODE
-	fprintf(LoggerHandle, "SEHTranslate: 0x%X\nScaleformTranslate: 0x%X\n", SEHTranslate, ScaleformTranslate);
+	printf("SEHTranslate: 0x%X\nScaleformTranslate: 0x%X\n", SEHTranslate, ScaleformTranslate);
+	printf("DBFindFAssetHeaderFunc: 0x%X\nSEGetStringFunc: 0x%X\n", DBFindFAssetHeaderFunc, SEGetStringFunc);
+	printf("ScaleformTranslateSetInfo: 0x%X\n", ScaleformTranslateSetInfo);
 #endif
 
-	// Continue if both were found
-	if (SEHTranslate > 0 && ScaleformTranslate > 0)
+	// Continue if all were found
+	if (SEHTranslate > 0 && ScaleformTranslate > 0 && DBFindFAssetHeaderFunc > 0 && SEGetStringFunc > 0 && ScaleformTranslateSetInfo > 0)
 	{
 		// Traverse SEHTranslate for required procs
 		auto SEHTranslateProc = (SEHTranslate + AppModule.GetBaseAddress());
 		auto ScaleformTranslateProc = (ScaleformTranslate + AppModule.GetBaseAddress());
-
-		// SE_GetString = Proc+0x33<uint32_t> + Proc+0x32+5
-		uint32_t SE_GetStringRelAddr = *(uint32_t*)((char*)SEHTranslateProc + 0x33);
-		uint32_t SE_GetStringAddr = SE_GetStringRelAddr + (SEHTranslateProc + 0x32) + 5;
-
-		// DB_FindXAssetHeader = Proc+0x40<uint32_t> + Proc+0x3F+5
-		uint32_t DB_FindXAssetHeaderRelAddr = *(uint32_t*)((char*)SEHTranslateProc + 0x40);
-		uint32_t DB_FindXAssetHeaderAddr = DB_FindXAssetHeaderRelAddr + (SEHTranslateProc + 0x3F) + 5;
+		auto DB_FindXAssetHeaderAddr = (DBFindFAssetHeaderFunc + AppModule.GetBaseAddress());
+		auto SE_GetStringAddr = (SEGetStringFunc + AppModule.GetBaseAddress());
 
 		// Setup the proc redirects
 		SE_GetString = (SE_GetStringProc)SE_GetStringAddr;
@@ -186,38 +185,28 @@ void DecodeApplyPatches(MainModule& AppModule)
 		// ScaleformTranslate = Proc+0x24<uint32_t> = base vtable
 		uint32_t ScaleformTranslateVTable = *(uint32_t*)((char*)ScaleformTranslateProc + 0x24);
 		uint32_t ScaleformTranslateInfoAddr = *((uint32_t*)ScaleformTranslateVTable + 2);
-
-		// ScaleformTranslateSetInfo
-		auto ScaleformTranslateSetInfo = FindPattern("E8 ? ? ? ? 83 C4 ? 68 ? ? ? ? 8D 94 24 ? ? ? ? 52 6A ?", ScaleformTranslateInfoAddr, 0x1000);
 		
 		// Log heuristic info
 #if LOGGER_MODE
-		fprintf(LoggerHandle, "SE_GetStringAddr: 0x%X\nDB_FindXAssetHeaderAddr: 0x%X\n", SE_GetStringAddr, DB_FindXAssetHeaderAddr);
-		fprintf(LoggerHandle, "ScaleformTranslateVTable: 0x%X\nScaleformTranslateInfoAddr: 0x%X\n", ScaleformTranslateVTable, ScaleformTranslateInfoAddr);
+		printf("SE_GetStringAddr: 0x%X\nDB_FindXAssetHeaderAddr: 0x%X\n", SE_GetStringAddr, DB_FindXAssetHeaderAddr);
+		printf("ScaleformTranslateVTable: 0x%X\nScaleformTranslateInfoAddr: 0x%X\n", ScaleformTranslateVTable, ScaleformTranslateInfoAddr);
 #endif
 
-		// Only advance if we found the sub-pattern
-		if (ScaleformTranslateSetInfo > 0)
-		{
-			auto TranslateSetInfoProc = (ScaleformTranslateSetInfo + ScaleformTranslateInfoAddr);
+		// Resolve info function
+		auto TranslateSetInfoProc = (ScaleformTranslateSetInfo + AppModule.GetBaseAddress());
 
-			// ScaleformTranslateSetResult = Proc+0x34<uint32_t> + Proc+0x33+5
-			uint32_t ScaleformTranslateSetInfoRelAddr = *(uint32_t*)((char*)TranslateSetInfoProc + 0x34);
-			uint32_t ScaleformTranslateSetInfoAddr = ScaleformTranslateSetInfoRelAddr + (TranslateSetInfoProc + 0x33) + 5;
+		// Setup the proc redirects
+		TranslateInfoTranslate = (TranslateInfoTranslateProc)ScaleformTranslateInfoAddr;
+		TranslateInfoSetResult = (TranslateInfoSetResultProc)TranslateSetInfoProc;
 
-			// Setup the proc redirects
-			TranslateInfoTranslate = (TranslateInfoTranslateProc)ScaleformTranslateInfoAddr;
-			TranslateInfoSetResult = (TranslateInfoSetResultProc)ScaleformTranslateSetInfoAddr;
-
-			// Log other info
+		// Log other info
 #if LOGGER_MODE
-			fprintf(LoggerHandle, "TranslateSetInfoProc: 0x%X\nScaleformTranslateSetInfoAddr: 0x%X\n", TranslateSetInfoProc, ScaleformTranslateSetInfoAddr);
+		printf("TranslateSetInfoProc: 0x%X\n", TranslateSetInfoProc);
 #endif
 
-			// If we got here, we can apply the hooks
-			JumpHook().Hook(SEHTranslateProc, (uintptr_t)&SEH_StringEd_GetStringHook);
-			VTableHook().Hook(ScaleformTranslateVTable, (uintptr_t)&Scaleform_TranslateSetResultHook, 2);
-		}
+		// If we got here, we can apply the hooks
+		JumpHook().Hook(SEHTranslateProc, (uintptr_t)&SEH_StringEd_GetStringHook);
+		VTableHook().Hook(ScaleformTranslateVTable, (uintptr_t)&Scaleform_TranslateSetResultHook, 2);
 	}
 }
 
@@ -231,6 +220,8 @@ DWORD WINAPI DecodeInitialize(LPVOID lpParam)
 	{
 		// Setup logger
 #if LOGGER_MODE
+		AllocConsole();
+		freopen_s((FILE**)stdout, "CONOUT$", "w", stdout);
 		LoggerHandle = fopen("C:\\decodelog.txt", "w");
 #endif
 
@@ -242,6 +233,11 @@ DWORD WINAPI DecodeInitialize(LPVOID lpParam)
 
 		// Attempt to apply patches
 		DecodeApplyPatches(ApplicationModule);
+
+		// Log end
+#if LOGGER_MODE
+		printf("Initialize has finished, see decodelog.txt for translating...\n");
+#endif
 	}
 
 	// Success
@@ -254,5 +250,6 @@ void WINAPI DecodeShutdown()
 #if LOGGER_MODE
 	if (LoggerHandle != NULL)
 		fclose(LoggerHandle);
+	FreeConsole();
 #endif
 }
